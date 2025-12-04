@@ -44,6 +44,14 @@
             border: 1px solid #a2a9b1;
             border-radius: 2px;
         }
+        .info-text {
+            font-size: 0.85em;
+            color: #72777d;
+            margin-bottom: 10px;
+            padding: 8px 10px;
+            background-color: #f8f9fa;
+            border-radius: 2px;
+        }
         #search-input {
             width: 100%;
             padding: 8px 12px;
@@ -85,67 +93,69 @@
             outline: none;
             border-color: #3366cc;
         }
-        .link-list a {
-            display: flex;
-            align-items: center;
+        .link-list .category-entry {
+            display: block;
             padding: 8px 0;
+        }
+        .link-list .category-entry::before {
+            content: "▸ ";
+            color: #72777d;
+        }
+        .link-list a {
             color: #0645ad;
             text-decoration: none;
             font-size: 0.95em;
-            gap: 8px;
         }
-        .link-list a:hover {
+        .link-list a:hover .category-name {
             text-decoration: underline;
         }
         .link-list a:visited {
             color: #0b0080;
         }
-        .link-list a::before {
-            content: "▸ ";
-            color: #72777d;
-            flex-shrink: 0;
-        }
         .category-links {
-            display: flex;
-            gap: 4px;
-            margin-left: auto;
-            flex-shrink: 0;
+            display: inline;
+            margin-left: 4px;
+        }
+        .category-links::before {
+            content: "·";
+            color: #72777d;
+            margin-right: 4px;
         }
         .icon-link {
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            width: 24px;
-            height: 24px;
-            border-radius: 3px;
-            background-color: #f8f9fa;
-            border: 1px solid #a2a9b1;
-            color: #202122;
+            padding: 0 2px;
+            color: #72777d;
             text-decoration: none;
-            font-size: 0.85em;
-            transition: background-color 0.2s;
+            font-size: 0.9em;
         }
         .icon-link:hover {
-            background-color: #eaecf0;
+            color: #0645ad;
             text-decoration: none;
         }
         .icon-link:visited {
-            color: #202122;
+            color: #72777d;
         }
         .category-name {
-            flex: 1;
+            display: inline;
         }
-        .link-list a.level-1 { padding-left: 0; }
-        .link-list a.level-2 { padding-left: 20px; font-size: 0.95em; }
-        .link-list a.level-3 { padding-left: 40px; font-size: 0.9em; }
-        .link-list a.level-4 { padding-left: 60px; font-size: 0.88em; }
-        .link-list a.level-5 { padding-left: 80px; font-size: 0.86em; }
-        .link-list a.level-6 { padding-left: 100px; font-size: 0.84em; }
-        .link-list a.level-7 { padding-left: 120px; font-size: 0.82em; }
-        .link-list a.level-8 { padding-left: 140px; font-size: 0.8em; }
-        .link-list a.level-9 { padding-left: 160px; font-size: 0.78em; }
-        .link-list a.level-10 { padding-left: 180px; font-size: 0.76em; }
-        .link-list a.hidden {
+        .file-count {
+            color: #72777d;
+            font-size: 0.9em;
+            margin-left: 4px;
+        }
+        .link-list .category-entry.level-1 { padding-left: 0; }
+        .link-list .category-entry.level-2 { padding-left: 20px; font-size: 0.95em; }
+        .link-list .category-entry.level-3 { padding-left: 40px; font-size: 0.9em; }
+        .link-list .category-entry.level-4 { padding-left: 60px; font-size: 0.88em; }
+        .link-list .category-entry.level-5 { padding-left: 80px; font-size: 0.86em; }
+        .link-list .category-entry.level-6 { padding-left: 100px; font-size: 0.84em; }
+        .link-list .category-entry.level-7 { padding-left: 120px; font-size: 0.82em; }
+        .link-list .category-entry.level-8 { padding-left: 140px; font-size: 0.8em; }
+        .link-list .category-entry.level-9 { padding-left: 160px; font-size: 0.78em; }
+        .link-list .category-entry.level-10 { padding-left: 180px; font-size: 0.76em; }
+        .link-list .category-entry.hidden {
             display: none !important;
         }
         .highlight {
@@ -177,6 +187,10 @@
     </div>
 
     <div class="search-container">
+        <div class="info-text">
+            Click category names to view on map. Use 🗀 to view the category page on Wikimedia Commons.
+        </div>
+        
         <input type="text" id="search-input" placeholder="Filter categories...">
         
         <div class="depth-control">
@@ -266,19 +280,20 @@
             container.innerHTML = '';
             
             allCategories.forEach(category => {
-                const link = createCategoryLink(category);
+                const wrapper = createCategoryLink(category);
                 
                 // Apply depth filter
                 if (subcategoryDepth >= 10 || category.level <= subcategoryDepth) {
-                    link.style.display = 'flex';
+                    wrapper.style.display = 'block';
                 } else {
-                    link.style.display = 'none';
+                    wrapper.style.display = 'none';
+                }
                 }
                 
                 // Apply search filter
-                applySearchToLink(link, currentSearchTerm);
+                applySearchToLink(wrapper, currentSearchTerm);
                 
-                container.appendChild(link);
+                container.appendChild(wrapper);
             });
             
             updateSearchStats();
@@ -320,19 +335,20 @@
 
         function updateSearchStats() {
             const searchStats = document.getElementById('search-stats');
-            const wrappers = container.querySelectorAll('.category-entry');
-            const visibleWrappers = Array.from(wrappers).filter(wrapper => 
-                !wrapper.classList.contains('hidden') && wrapper.style.display !== 'none'
+            const links = container.querySelectorAll('a');
+            const visibleLinks = Array.from(links).filter(link => 
+                !link.classList.contains('hidden') && link.style.display !== 'none'
             );
             
-            searchStats.textContent = `Showing: ${visibleWrappers.length} of ${allCategories.length} categories`;
+            searchStats.textContent = `Showing: ${visibleLinks.length} of ${allCategories.length} categories`;
         }
 
         function updateAllLinks() {
-            const links = container.querySelectorAll('a[data-map-url]');
+            const wrappers = container.querySelectorAll('.category-entry');
             
-            links.forEach(link => {
-                const nameSpan = link.querySelector('.category-name');
+            wrappers.forEach(wrapper => {
+                const mapLink = wrapper.querySelector('a');
+                const nameSpan = mapLink.querySelector('.category-name');
                 if (!nameSpan) return;
                 
                 const categoryName = nameSpan.textContent.trim();
@@ -346,27 +362,20 @@
                 }
                 
                 // Update main link
-                link.href = mapUrl;
-                link.setAttribute('data-map-url', mapUrl);
-                
-                // Update map icon link
-                const mapIcon = link.querySelector('.icon-link[title="View on map"]');
-                if (mapIcon) {
-                    mapIcon.href = mapUrl;
-                }
+                mapLink.href = mapUrl;
             });
         }
 
         function filterCategoriesByDepth() {
-            const links = container.querySelectorAll('a[data-level]');
+            const wrappers = container.querySelectorAll('.category-entry');
             
-            links.forEach(link => {
-                const level = parseInt(link.getAttribute('data-level'));
+            wrappers.forEach(wrapper => {
+                const level = parseInt(wrapper.getAttribute('data-level'));
                 
                 if (subcategoryDepth >= 10 || level <= subcategoryDepth) {
-                    link.style.display = 'flex';
+                    wrapper.style.display = 'block';
                 } else {
-                    link.style.display = 'none';
+                    wrapper.style.display = 'none';
                 }
             });
             
@@ -378,10 +387,10 @@
 
             searchInput.addEventListener('input', (e) => {
                 currentSearchTerm = e.target.value.toLowerCase().trim();
-                const links = container.querySelectorAll('a');
+                const wrappers = container.querySelectorAll('.category-entry');
                 
-                links.forEach(link => {
-                    applySearchToLink(link, currentSearchTerm);
+                wrappers.forEach(wrapper => {
+                    applySearchToLink(wrapper, currentSearchTerm);
                 });
 
                 updateSearchStats();
