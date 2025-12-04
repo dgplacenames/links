@@ -27,8 +27,20 @@ def fetch_subcategories(category_name):
     subcats = []
     
     while True:
-        response = requests.get(BASE_URL, params=params)
-        data = response.json()
+        try:
+            response = requests.get(BASE_URL, params=params, timeout=30)
+            response.raise_for_status()  # Raise error for bad status codes
+            
+            data = response.json()
+        except requests.exceptions.RequestException as e:
+            print(f"Error fetching subcategories for {category_name}: {e}")
+            print(f"Response status: {response.status_code if response else 'No response'}")
+            print(f"Response text: {response.text[:200] if response else 'No response'}")
+            return []
+        except ValueError as e:
+            print(f"JSON decode error for {category_name}: {e}")
+            print(f"Response text: {response.text[:200]}")
+            return []
         
         if 'query' in data and 'categorymembers' in data['query']:
             for cat in data['query']['categorymembers']:
@@ -53,8 +65,16 @@ def fetch_file_count(category_name):
         'format': 'json'
     }
     
-    response = requests.get(BASE_URL, params=params)
-    data = response.json()
+    try:
+        response = requests.get(BASE_URL, params=params, timeout=30)
+        response.raise_for_status()
+        data = response.json()
+    except requests.exceptions.RequestException as e:
+        print(f"Error fetching file count for {category_name}: {e}")
+        return 0
+    except ValueError as e:
+        print(f"JSON decode error for file count {category_name}: {e}")
+        return 0
     
     if 'query' in data and 'pages' in data['query']:
         page = list(data['query']['pages'].values())[0]
