@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +15,7 @@
             color: #202122;
             line-height: 1.6;
         }
+
         .header {
             display: flex;
             align-items: center;
@@ -22,14 +24,17 @@
             padding-bottom: 10px;
             border-bottom: 1px solid #a2a9b1;
         }
+
         .header a {
             display: inline-block;
             line-height: 0;
         }
+
         .logo-icon {
             height: 50px;
             width: auto;
         }
+
         h1 {
             font-family: 'Linux Libertine', Georgia, Times, serif;
             color: #000;
@@ -37,6 +42,7 @@
             font-weight: normal;
             font-size: 1.8em;
         }
+
         .search-container {
             margin: 20px 0;
             padding: 10px;
@@ -44,6 +50,7 @@
             border: 1px solid #a2a9b1;
             border-radius: 2px;
         }
+
         .info-text {
             font-size: 0.85em;
             color: #72777d;
@@ -52,6 +59,7 @@
             background-color: #f8f9fa;
             border-radius: 2px;
         }
+
         #search-input {
             width: 100%;
             padding: 8px 12px;
@@ -60,26 +68,31 @@
             border-radius: 2px;
             box-sizing: border-box;
         }
+
         #search-input:focus {
             outline: none;
             border-color: #3366cc;
         }
+
         .search-stats {
             font-size: 0.85em;
             color: #72777d;
             margin-left: auto;
         }
+
         .depth-control {
             margin-top: 8px;
             display: flex;
             align-items: center;
             gap: 10px;
         }
+
         .depth-label {
             font-size: 0.85em;
             color: #202122;
             white-space: nowrap;
         }
+
         #depth-select {
             padding: 4px 8px;
             font-size: 0.85em;
@@ -89,38 +102,47 @@
             color: #202122;
             cursor: pointer;
         }
+
         #depth-select:focus {
             outline: none;
             border-color: #3366cc;
         }
+
         .link-list .category-entry {
             display: block;
             padding: 8px 0;
         }
+
         .link-list .category-entry::before {
             content: "▸ ";
             color: #72777d;
         }
+
         .link-list a {
             color: #0645ad;
             text-decoration: none;
             font-size: 0.95em;
         }
+
         .link-list a:hover .category-name {
             text-decoration: underline;
         }
+
         .link-list a:visited {
             color: #0b0080;
         }
+
         .category-links {
             display: inline;
             margin-left: 4px;
         }
+
         .category-links::before {
             content: "·";
             color: #72777d;
             margin-right: 4px;
         }
+
         .icon-link {
             display: inline-flex;
             align-items: center;
@@ -130,47 +152,95 @@
             text-decoration: none;
             font-size: 0.9em;
         }
+
         .icon-link:hover {
             color: #0645ad;
             text-decoration: none;
         }
+
         .icon-link:visited {
             color: #72777d;
         }
+
         .category-name {
             display: inline;
         }
+
         .file-count {
             color: #72777d;
             font-size: 0.9em;
             margin-left: 4px;
         }
-        .link-list .category-entry.level-1 { padding-left: 0; }
-        .link-list .category-entry.level-2 { padding-left: 20px; font-size: 0.95em; }
-        .link-list .category-entry.level-3 { padding-left: 40px; font-size: 0.9em; }
-        .link-list .category-entry.level-4 { padding-left: 60px; font-size: 0.88em; }
-        .link-list .category-entry.level-5 { padding-left: 80px; font-size: 0.86em; }
-        .link-list .category-entry.level-6 { padding-left: 100px; font-size: 0.84em; }
-        .link-list .category-entry.level-7 { padding-left: 120px; font-size: 0.82em; }
-        .link-list .category-entry.level-8 { padding-left: 140px; font-size: 0.8em; }
-        .link-list .category-entry.level-9 { padding-left: 160px; font-size: 0.78em; }
-        .link-list .category-entry.level-10 { padding-left: 180px; font-size: 0.76em; }
+
+        .link-list .category-entry.level-1 {
+            padding-left: 0;
+        }
+
+        .link-list .category-entry.level-2 {
+            padding-left: 20px;
+            font-size: 0.95em;
+        }
+
+        .link-list .category-entry.level-3 {
+            padding-left: 40px;
+            font-size: 0.9em;
+        }
+
+        .link-list .category-entry.level-4 {
+            padding-left: 60px;
+            font-size: 0.88em;
+        }
+
+        .link-list .category-entry.level-5 {
+            padding-left: 80px;
+            font-size: 0.86em;
+        }
+
+        .link-list .category-entry.level-6 {
+            padding-left: 100px;
+            font-size: 0.84em;
+        }
+
+        .link-list .category-entry.level-7 {
+            padding-left: 120px;
+            font-size: 0.82em;
+        }
+
+        .link-list .category-entry.level-8 {
+            padding-left: 140px;
+            font-size: 0.8em;
+        }
+
+        .link-list .category-entry.level-9 {
+            padding-left: 160px;
+            font-size: 0.78em;
+        }
+
+        .link-list .category-entry.level-10 {
+            padding-left: 180px;
+            font-size: 0.76em;
+        }
+
         .link-list .category-entry.hidden {
             display: none !important;
         }
+
         .highlight {
             background-color: #ffff00;
             font-weight: bold;
         }
+
         .loading {
             color: #72777d;
             font-style: italic;
             padding: 8px 0;
         }
+
         .error {
             color: #d33;
             padding: 8px 0;
         }
+
         .last-updated {
             font-size: 0.75em;
             color: #72777d;
@@ -178,6 +248,7 @@
         }
     </style>
 </head>
+
 <body>
     <div class="header">
         <a href="https://commons.wikimedia.org/" target="_blank">
@@ -190,9 +261,9 @@
         <div class="info-text">
             Click category names to view on map. Use 🗀 to view the category page on Wikimedia Commons.
         </div>
-        
+
         <input type="text" id="search-input" placeholder="Filter categories...">
-        
+
         <div class="depth-control">
             <label class="depth-label" for="depth-select">Subcategory depth for map links:</label>
             <select id="depth-select">
@@ -219,179 +290,162 @@
 
         function createCategoryLink(category) {
             const encodedCategory = encodeURIComponent(category.name);
-            
-            // Build map URL based on subcategory depth setting
+
+            // Build map URL
             let mapUrl;
             if (subcategoryDepth >= 10) {
                 mapUrl = `https://wikimap.toolforge.org/?cat=${encodedCategory}&subcats=true&cluster=true`;
             } else {
                 mapUrl = `https://wikimap.toolforge.org/?cat=${encodedCategory}&subcats=true&depth=${subcategoryDepth}&cluster=true`;
             }
-            
-            // Build Commons category page URL
+
             const categoryUrl = `https://commons.wikimedia.org/wiki/Category:${encodedCategory}`;
-            
-            // Create wrapper div
+
             const wrapper = document.createElement('div');
             wrapper.className = `category-entry level-${category.level}`;
             wrapper.setAttribute('data-category-name', category.name.toLowerCase());
             wrapper.setAttribute('data-level', category.level);
-            
-            // Create main link to map
+
             const mapLink = document.createElement('a');
             mapLink.href = mapUrl;
             mapLink.target = '_blank';
-            
-            // Create category name span
+
             const nameSpan = document.createElement('span');
             nameSpan.className = 'category-name';
             nameSpan.textContent = category.name;
             mapLink.appendChild(nameSpan);
-            
-            // Create file count span if files exist
+
             if (category.files && category.files > 0) {
                 const countSpan = document.createElement('span');
                 countSpan.className = 'file-count';
                 countSpan.textContent = ` (${category.files})`;
                 mapLink.appendChild(countSpan);
             }
-            
+
             wrapper.appendChild(mapLink);
-            
-            // Create links container with separator
+
             const linksContainer = document.createElement('span');
             linksContainer.className = 'category-links';
-            
-            // Create external link to category page
+
             const catLink = document.createElement('a');
             catLink.href = categoryUrl;
             catLink.target = '_blank';
             catLink.className = 'icon-link';
             catLink.title = 'View category page on Commons';
             catLink.innerHTML = '🗀';
-            
+
             linksContainer.appendChild(catLink);
             wrapper.appendChild(linksContainer);
-            
+
             return wrapper;
         }
 
         function renderCategories() {
             container.innerHTML = '';
-            
+
             allCategories.forEach(category => {
                 const wrapper = createCategoryLink(category);
-                
-                // Apply depth filter
+
+                // Depth filtering
                 if (subcategoryDepth >= 10 || category.level <= subcategoryDepth) {
                     wrapper.style.display = 'block';
                 } else {
                     wrapper.style.display = 'none';
                 }
-                }
-                
-                // Apply search filter
+
+                // Search filtering
                 applySearchToLink(wrapper, currentSearchTerm);
-                
+
                 container.appendChild(wrapper);
             });
-            
+
             updateSearchStats();
         }
 
         function applySearchToLink(link, searchTerm) {
             const categoryName = link.getAttribute('data-category-name');
             const nameSpan = link.querySelector('.category-name');
-            
+
             if (!nameSpan) return;
-            
+
             if (searchTerm === '') {
                 link.classList.remove('hidden');
+                // Reset text (remove highlight)
                 const text = nameSpan.textContent.trim();
                 nameSpan.textContent = text;
-                return true;
+                return;
             }
 
             if (categoryName.includes(searchTerm)) {
                 link.classList.remove('hidden');
-                
+
                 const text = nameSpan.textContent.trim();
                 const lowerText = text.toLowerCase();
                 const index = lowerText.indexOf(searchTerm);
-                
-                if (index !== -1) {
-                    const before = text.substring(0, index);
-                    const match = text.substring(index, index + searchTerm.length);
-                    const after = text.substring(index + searchTerm.length);
-                    nameSpan.textContent = '';
-                    nameSpan.innerHTML = `${before}<span class="highlight">${match}</span>${after}`;
-                }
-                return true;
+
+                nameSpan.innerHTML =
+                    text.substring(0, index) +
+                    `<span class="highlight">${text.substring(index, index + searchTerm.length)}</span>` +
+                    text.substring(index + searchTerm.length);
+
             } else {
                 link.classList.add('hidden');
-                return false;
             }
         }
 
         function updateSearchStats() {
             const searchStats = document.getElementById('search-stats');
-            const links = container.querySelectorAll('a');
-            const visibleLinks = Array.from(links).filter(link => 
-                !link.classList.contains('hidden') && link.style.display !== 'none'
-            );
-            
-            searchStats.textContent = `Showing: ${visibleLinks.length} of ${allCategories.length} categories`;
+            const visible = container.querySelectorAll('.category-entry:not(.hidden)[style*="display: block"]');
+
+            searchStats.textContent = `Showing: ${visible.length} of ${allCategories.length} categories`;
         }
 
         function updateAllLinks() {
             const wrappers = container.querySelectorAll('.category-entry');
-            
+
             wrappers.forEach(wrapper => {
                 const mapLink = wrapper.querySelector('a');
                 const nameSpan = mapLink.querySelector('.category-name');
                 if (!nameSpan) return;
-                
+
                 const categoryName = nameSpan.textContent.trim();
                 const encodedCategory = encodeURIComponent(categoryName);
-                
+
                 let mapUrl;
                 if (subcategoryDepth >= 10) {
                     mapUrl = `https://wikimap.toolforge.org/?cat=${encodedCategory}&subcats=true&cluster=true`;
                 } else {
                     mapUrl = `https://wikimap.toolforge.org/?cat=${encodedCategory}&subcats=true&depth=${subcategoryDepth}&cluster=true`;
                 }
-                
-                // Update main link
+
                 mapLink.href = mapUrl;
             });
         }
 
         function filterCategoriesByDepth() {
             const wrappers = container.querySelectorAll('.category-entry');
-            
+
             wrappers.forEach(wrapper => {
                 const level = parseInt(wrapper.getAttribute('data-level'));
-                
+
                 if (subcategoryDepth >= 10 || level <= subcategoryDepth) {
                     wrapper.style.display = 'block';
                 } else {
                     wrapper.style.display = 'none';
                 }
             });
-            
+
             updateSearchStats();
         }
 
         function setupSearch() {
             const searchInput = document.getElementById('search-input');
 
-            searchInput.addEventListener('input', (e) => {
+            searchInput.addEventListener('input', e => {
                 currentSearchTerm = e.target.value.toLowerCase().trim();
+
                 const wrappers = container.querySelectorAll('.category-entry');
-                
-                wrappers.forEach(wrapper => {
-                    applySearchToLink(wrapper, currentSearchTerm);
-                });
+                wrappers.forEach(wrapper => applySearchToLink(wrapper, currentSearchTerm));
 
                 updateSearchStats();
             });
@@ -409,42 +463,38 @@
 
         async function loadCategories() {
             try {
-                // Fetch the JSON file
                 const response = await fetch('data/orkney-categories.json');
-                
+
                 if (!response.ok) {
                     if (response.status === 404) {
-                        container.innerHTML = '<div class="error">Categories data not found. Please run the GitHub Action to generate the data file. Go to Actions → Fetch Orkney Categories → Run workflow.</div>';
+                        container.innerHTML =
+                            '<div class="error">Categories data not found. Run the GitHub Action to generate the data file.</div>';
                         return;
                     }
-                    throw new Error(`HTTP error! status: ${response.status}`);
+                    throw new Error(`HTTP error: ${response.status}`);
                 }
-                
+
                 const data = await response.json();
-                
                 allCategories = data.categories;
-                
-                // Render all categories
+
                 renderCategories();
-                
-                // Setup controls
                 setupSearch();
                 setupDepthControl();
-                
-                // Show last updated info
+
                 const updated = new Date(data.updated);
                 const searchStats = document.getElementById('search-stats');
-                const currentText = searchStats.textContent;
-                searchStats.innerHTML = `${currentText} <span class="last-updated">(updated ${updated.toLocaleDateString()})</span>`;
-                
+                searchStats.innerHTML += ` <span class="last-updated">(updated ${updated.toLocaleDateString()})</span>`;
+
             } catch (error) {
-                container.innerHTML = '<div class="error">Error loading categories. Please ensure the GitHub Action has run to generate data. See README for setup instructions.</div>';
+                container.innerHTML =
+                    '<div class="error">Error loading categories. Ensure the GitHub Action has run.</div>';
                 console.error('Error:', error);
             }
         }
 
-        // Load categories when page loads
         loadCategories();
     </script>
+
 </body>
+
 </html>
