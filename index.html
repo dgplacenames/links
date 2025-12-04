@@ -74,17 +74,12 @@
             border-color: #3366cc;
         }
 
-        .search-stats {
-            font-size: 0.85em;
-            color: #72777d;
-            margin-left: auto;
-        }
-
         .depth-control {
             margin-top: 8px;
             display: flex;
             align-items: center;
             gap: 10px;
+            flex-wrap: wrap;
         }
 
         .depth-label {
@@ -106,6 +101,13 @@
         #depth-select:focus {
             outline: none;
             border-color: #3366cc;
+        }
+
+        .search-stats {
+            font-size: 0.85em;
+            color: #72777d;
+            flex-basis: 100%;
+            margin-top: 4px;
         }
 
         .link-list .category-entry {
@@ -151,6 +153,8 @@
             color: #72777d;
             text-decoration: none;
             font-size: 0.9em;
+            /* Font stack for folder icon: tries Unicode first, falls back to color emoji */
+            font-family: "Segoe UI Emoji", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
         }
 
         .icon-link:hover {
@@ -251,7 +255,7 @@
 
 <body>
     <div class="header">
-        <a href="https://commons.wikimedia.org/" target="_blank">
+        <a href="https://commons.wikimedia.org/" target="_blank" rel="noopener noreferrer">
             <img src="https://commons.wikimedia.org/static/images/icons/commonswiki.svg" alt="Commons icon" class="logo-icon">
         </a>
         <h1>Orkney Map Links</h1>
@@ -265,10 +269,10 @@
         <input type="text" id="search-input" placeholder="Filter categories...">
 
         <div class="depth-control">
-            <label class="depth-label" for="depth-select">Subcategory depth for map links:</label>
+            <label class="depth-label" for="depth-select">Subcategory depth:</label>
             <select id="depth-select">
-                <option value="1" selected>1 level</option>
-                <option value="2">2 levels</option>
+                <option value="1">1 level</option>
+                <option value="2" selected>2 levels</option>
                 <option value="3">3 levels</option>
                 <option value="4">4 levels</option>
                 <option value="5">5 levels</option>
@@ -284,7 +288,7 @@
 
     <script>
         let currentSearchTerm = '';
-        let subcategoryDepth = 1;
+        let subcategoryDepth = 2;
         let allCategories = [];
         const container = document.getElementById('orkney-links');
 
@@ -304,11 +308,13 @@
             const wrapper = document.createElement('div');
             wrapper.className = `category-entry level-${category.level}`;
             wrapper.setAttribute('data-category-name', category.name.toLowerCase());
+            wrapper.setAttribute('data-name-raw', category.name);
             wrapper.setAttribute('data-level', category.level);
 
             const mapLink = document.createElement('a');
             mapLink.href = mapUrl;
             mapLink.target = '_blank';
+            mapLink.rel = 'noopener noreferrer';
 
             const nameSpan = document.createElement('span');
             nameSpan.className = 'category-name';
@@ -330,9 +336,10 @@
             const catLink = document.createElement('a');
             catLink.href = categoryUrl;
             catLink.target = '_blank';
+            catLink.rel = 'noopener noreferrer';
             catLink.className = 'icon-link';
             catLink.title = 'View category page on Commons';
-            catLink.innerHTML = '🗀';
+            catLink.textContent = '🗀';
 
             linksContainer.appendChild(catLink);
             wrapper.appendChild(linksContainer);
@@ -343,7 +350,30 @@
         function renderCategories() {
             container.innerHTML = '';
 
+            // Add parent "Orkney Islands" category first
+            const parentCategory = {
+                name: 'Orkney Islands',
+                level: 1,
+                files: window.orkneyIslandsFiles || 0
+            };
+            const parentWrapper = createCategoryLink(parentCategory);
+            parentWrapper.style.display = 'block';
+            parentWrapper.style.fontWeight = 'bold';
+            parentWrapper.setAttribute('data-parent', 'true');
+            container.appendChild(parentWrapper);
+
+            // Add separator
+            const separator = document.createElement('div');
+            separator.style.borderTop = '1px solid #a2a9b1';
+            separator.style.marginTop = '8px';
+            separator.style.marginBottom = '8px';
+            separator.setAttribute('data-separator', 'true');
+            container.appendChild(separator);
+
             allCategories.forEach(category => {
+                // Skip if it's already the parent category
+                if (category.name === 'Orkney Islands') return;
+                
                 const wrapper = createCategoryLink(category);
 
                 // Depth filtering
@@ -364,29 +394,28 @@
 
         function applySearchToLink(link, searchTerm) {
             const categoryName = link.getAttribute('data-category-name');
+            const rawName = link.getAttribute('data-name-raw');
             const nameSpan = link.querySelector('.category-name');
 
-            if (!nameSpan) return;
+            if (!nameSpan || !rawName) return;
 
             if (searchTerm === '') {
                 link.classList.remove('hidden');
-                // Reset text (remove highlight)
-                const text = nameSpan.textContent.trim();
-                nameSpan.textContent = text;
+                // Reset to original name
+                nameSpan.textContent = rawName;
                 return;
             }
 
             if (categoryName.includes(searchTerm)) {
                 link.classList.remove('hidden');
 
-                const text = nameSpan.textContent.trim();
-                const lowerText = text.toLowerCase();
+                const lowerText = rawName.toLowerCase();
                 const index = lowerText.indexOf(searchTerm);
 
                 nameSpan.innerHTML =
-                    text.substring(0, index) +
-                    `<span class="highlight">${text.substring(index, index + searchTerm.length)}</span>` +
-                    text.substring(index + searchTerm.length);
+                    rawName.substring(0, index) +
+                    `<span class="highlight">${rawName.substring(index, index + searchTerm.length)}</span>` +
+                    rawName.substring(index + searchTerm.length);
 
             } else {
                 link.classList.add('hidden');
@@ -395,20 +424,21 @@
 
         function updateSearchStats() {
             const searchStats = document.getElementById('search-stats');
-            const visible = container.querySelectorAll('.category-entry:not(.hidden)[style*="display: block"]');
+            const visible = container.querySelectorAll('.category-entry:not([data-parent]):not(.hidden)[style*="display: block"]');
+            
+            const totalCount = allCategories.filter(cat => cat.name !== 'Orkney Islands').length;
 
-            searchStats.textContent = `Showing: ${visible.length} of ${allCategories.length} categories`;
+            searchStats.textContent = `Showing: ${visible.length} of ${totalCount} subcategories`;
         }
 
         function updateAllLinks() {
-            const wrappers = container.querySelectorAll('.category-entry');
+            const wrappers = container.querySelectorAll('.category-entry:not([data-parent])');
 
             wrappers.forEach(wrapper => {
                 const mapLink = wrapper.querySelector('a');
-                const nameSpan = mapLink.querySelector('.category-name');
-                if (!nameSpan) return;
+                const categoryName = wrapper.getAttribute('data-name-raw');
+                if (!categoryName) return;
 
-                const categoryName = nameSpan.textContent.trim();
                 const encodedCategory = encodeURIComponent(categoryName);
 
                 let mapUrl;
@@ -423,7 +453,7 @@
         }
 
         function filterCategoriesByDepth() {
-            const wrappers = container.querySelectorAll('.category-entry');
+            const wrappers = container.querySelectorAll('.category-entry:not([data-parent])');
 
             wrappers.forEach(wrapper => {
                 const level = parseInt(wrapper.getAttribute('data-level'));
@@ -434,6 +464,11 @@
                     wrapper.style.display = 'none';
                 }
             });
+            
+            // Reapply search highlighting to newly visible items
+            if (currentSearchTerm) {
+                wrappers.forEach(wrapper => applySearchToLink(wrapper, currentSearchTerm));
+            }
 
             updateSearchStats();
         }
@@ -444,7 +479,7 @@
             searchInput.addEventListener('input', e => {
                 currentSearchTerm = e.target.value.toLowerCase().trim();
 
-                const wrappers = container.querySelectorAll('.category-entry');
+                const wrappers = container.querySelectorAll('.category-entry:not([data-parent])');
                 wrappers.forEach(wrapper => applySearchToLink(wrapper, currentSearchTerm));
 
                 updateSearchStats();
@@ -476,6 +511,13 @@
 
                 const data = await response.json();
                 allCategories = data.categories;
+
+                // Find Orkney Islands in the data to get its file count
+                const orkneyIslands = data.categories.find(cat => cat.name === 'Orkney Islands');
+                if (orkneyIslands) {
+                    // Store for use in renderCategories
+                    window.orkneyIslandsFiles = orkneyIslands.files || 0;
+                }
 
                 renderCategories();
                 setupSearch();
