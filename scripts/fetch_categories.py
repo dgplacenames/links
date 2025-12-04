@@ -13,6 +13,11 @@ from pathlib import Path
 BASE_URL = "https://commons.wikimedia.org/w/api.php"
 MAX_DEPTH = 10
 
+# Headers for API requests (Wikimedia requires user-agent)
+HEADERS = {
+    'User-Agent': 'OrkneyCategoryBot/1.0 (GitHub Actions; educational/personal use)'
+}
+
 def fetch_subcategories(category_name):
     """Fetch all subcategories for a given category."""
     params = {
@@ -28,7 +33,7 @@ def fetch_subcategories(category_name):
     
     while True:
         try:
-            response = requests.get(BASE_URL, params=params, timeout=30)
+            response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
             response.raise_for_status()  # Raise error for bad status codes
             
             data = response.json()
@@ -45,6 +50,9 @@ def fetch_subcategories(category_name):
         if 'query' in data and 'categorymembers' in data['query']:
             for cat in data['query']['categorymembers']:
                 subcats.append(cat['title'].replace('Category:', ''))
+        else:
+            print(f"No categorymembers in response for {category_name}")
+            print(f"Response data: {data}")
         
         # Check for continuation
         if 'continue' not in data:
@@ -66,7 +74,7 @@ def fetch_file_count(category_name):
     }
     
     try:
-        response = requests.get(BASE_URL, params=params, timeout=30)
+        response = requests.get(BASE_URL, params=params, headers=HEADERS, timeout=30)
         response.raise_for_status()
         data = response.json()
     except requests.exceptions.RequestException as e:
