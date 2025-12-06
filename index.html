@@ -263,7 +263,7 @@
 
     <div class="search-container">
         <div class="info-text">
-            Click category names to view on map. Use 🗀 to view the category page on Wikimedia Commons.
+            Click category names to view on map. Use 📁 to view the category page on Wikimedia Commons.
         </div>
 
         <input type="text" id="search-input" placeholder="Filter categories...">
@@ -339,7 +339,7 @@
             catLink.rel = 'noopener noreferrer';
             catLink.className = 'icon-link';
             catLink.title = 'View category page on Commons';
-            catLink.textContent = '🗀';
+            catLink.textContent = '📁';
 
             linksContainer.appendChild(catLink);
             wrapper.appendChild(linksContainer);
@@ -350,30 +350,7 @@
         function renderCategories() {
             container.innerHTML = '';
 
-            // Add parent "Orkney Islands" category first
-            const parentCategory = {
-                name: 'Orkney Islands',
-                level: 1,
-                files: window.orkneyIslandsFiles || 0
-            };
-            const parentWrapper = createCategoryLink(parentCategory);
-            parentWrapper.style.display = 'block';
-            parentWrapper.style.fontWeight = 'bold';
-            parentWrapper.setAttribute('data-parent', 'true');
-            container.appendChild(parentWrapper);
-
-            // Add separator
-            const separator = document.createElement('div');
-            separator.style.borderTop = '1px solid #a2a9b1';
-            separator.style.marginTop = '8px';
-            separator.style.marginBottom = '8px';
-            separator.setAttribute('data-separator', 'true');
-            container.appendChild(separator);
-
             allCategories.forEach(category => {
-                // Skip if it's already the parent category
-                if (category.name === 'Orkney Islands') return;
-                
                 const wrapper = createCategoryLink(category);
 
                 // Depth filtering
@@ -424,15 +401,13 @@
 
         function updateSearchStats() {
             const searchStats = document.getElementById('search-stats');
-            const visible = container.querySelectorAll('.category-entry:not([data-parent]):not(.hidden)[style*="display: block"]');
-            
-            const totalCount = allCategories.filter(cat => cat.name !== 'Orkney Islands').length;
+            const visible = container.querySelectorAll('.category-entry:not(.hidden)[style*="display: block"]');
 
-            searchStats.textContent = `Showing: ${visible.length} of ${totalCount} subcategories`;
+            searchStats.textContent = `Showing: ${visible.length} of ${allCategories.length} categories`;
         }
 
         function updateAllLinks() {
-            const wrappers = container.querySelectorAll('.category-entry:not([data-parent])');
+            const wrappers = container.querySelectorAll('.category-entry');
 
             wrappers.forEach(wrapper => {
                 const mapLink = wrapper.querySelector('a');
@@ -453,7 +428,7 @@
         }
 
         function filterCategoriesByDepth() {
-            const wrappers = container.querySelectorAll('.category-entry:not([data-parent])');
+            const wrappers = container.querySelectorAll('.category-entry');
 
             wrappers.forEach(wrapper => {
                 const level = parseInt(wrapper.getAttribute('data-level'));
@@ -479,7 +454,7 @@
             searchInput.addEventListener('input', e => {
                 currentSearchTerm = e.target.value.toLowerCase().trim();
 
-                const wrappers = container.querySelectorAll('.category-entry:not([data-parent])');
+                const wrappers = container.querySelectorAll('.category-entry');
                 wrappers.forEach(wrapper => applySearchToLink(wrapper, currentSearchTerm));
 
                 updateSearchStats();
@@ -511,13 +486,6 @@
 
                 const data = await response.json();
                 allCategories = data.categories;
-
-                // Find Orkney Islands in the data to get its file count
-                const orkneyIslands = data.categories.find(cat => cat.name === 'Orkney Islands');
-                if (orkneyIslands) {
-                    // Store for use in renderCategories
-                    window.orkneyIslandsFiles = orkneyIslands.files || 0;
-                }
 
                 renderCategories();
                 setupSearch();
