@@ -1,7 +1,7 @@
 {
-  "updated": "2025-12-07T03:50:49.310233Z",
+  "updated": "2025-12-14T03:50:27.314542Z",
   "root_category": "Orkney Islands",
-  "total_categories": 2180,
+  "total_categories": 2185,
   "max_depth": 10,
   "categories": [
     {
@@ -12,7 +12,7 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 2468
+      "files": 2476
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
@@ -117,7 +117,7 @@
     {
       "name": "Heart of Neolithic Orkney",
       "level": 3,
-      "files": 894
+      "files": 896
     },
     {
       "name": "Glow in the ArchaeoDark",
@@ -142,7 +142,7 @@
     {
       "name": "Skara Brae",
       "level": 4,
-      "files": 241
+      "files": 243
     },
     {
       "name": "Standing Stones of Stenness",
@@ -167,7 +167,7 @@
     {
       "name": "Links of Noltland",
       "level": 3,
-      "files": 4
+      "files": 6
     },
     {
       "name": "Westray Wife",
@@ -232,12 +232,17 @@
     {
       "name": "Skara Brae",
       "level": 3,
-      "files": 241
+      "files": 243
     },
     {
       "name": "Standing stones in the Orkney Islands",
       "level": 3,
-      "files": 60
+      "files": 62
+    },
+    {
+      "name": "Clouduhall standing stone",
+      "level": 4,
+      "files": 2
     },
     {
       "name": "Comet Stone",
@@ -263,6 +268,11 @@
       "name": "Odin Stone",
       "level": 4,
       "files": 1
+    },
+    {
+      "name": "Sorquoy standing stone",
+      "level": 4,
+      "files": 5
     },
     {
       "name": "Stan Stane",
@@ -337,12 +347,12 @@
     {
       "name": "Architecture of the Orkney Islands",
       "level": 1,
-      "files": 7380
+      "files": 7387
     },
     {
       "name": "Buildings in the Orkney Islands",
       "level": 2,
-      "files": 6624
+      "files": 6630
     },
     {
       "name": "Bothies in the Orkney Islands",
@@ -382,7 +392,7 @@
     {
       "name": "Castles in the Orkney Islands",
       "level": 3,
-      "files": 388
+      "files": 390
     },
     {
       "name": "Balfour Castle",
@@ -392,7 +402,7 @@
     {
       "name": "Bishop's Palace, Kirkwall",
       "level": 4,
-      "files": 19
+      "files": 20
     },
     {
       "name": "Cubbie Roos Castle",
@@ -432,7 +442,7 @@
     {
       "name": "Bishop's Palace, Kirkwall",
       "level": 5,
-      "files": 19
+      "files": 20
     },
     {
       "name": "Cubbie Roos Castle",
@@ -1397,7 +1407,7 @@
     {
       "name": "Old Lighthouse, North Ronaldsay",
       "level": 4,
-      "files": 8
+      "files": 9
     },
     {
       "name": "Pentland Skerries High Light",
@@ -1427,12 +1437,12 @@
     {
       "name": "Listed buildings in the Orkney Islands",
       "level": 3,
-      "files": 1326
+      "files": 1327
     },
     {
       "name": "Category A listed buildings in the Orkney Islands",
       "level": 4,
-      "files": 593
+      "files": 594
     },
     {
       "name": "Balfour Castle",
@@ -1502,7 +1512,7 @@
     {
       "name": "Old Lighthouse, North Ronaldsay",
       "level": 5,
-      "files": 8
+      "files": 9
     },
     {
       "name": "Pentland Skerries High Light",
@@ -1827,7 +1837,7 @@
     {
       "name": "Skara Brae",
       "level": 4,
-      "files": 241
+      "files": 243
     },
     {
       "name": "Stromness Museum",
@@ -1902,7 +1912,7 @@
     {
       "name": "Structures in the Orkney Islands",
       "level": 2,
-      "files": 726
+      "files": 727
     },
     {
       "name": "Bridges in the Orkney Islands",
@@ -1962,7 +1972,7 @@
     {
       "name": "Monuments and memorials in the Orkney Islands",
       "level": 3,
-      "files": 225
+      "files": 226
     },
     {
       "name": "Covenanter's Memorial, Deerness",
@@ -1987,12 +1997,17 @@
     {
       "name": "Plaques in the Orkney Islands",
       "level": 4,
-      "files": 47
+      "files": 48
     },
     {
       "name": "Plaques in Stromness",
       "level": 5,
-      "files": 11
+      "files": 9
+    },
+    {
+      "name": "Home of Eliza Fraser plaque",
+      "level": 6,
+      "files": 2
     },
     {
       "name": "William Schollay's Ship Inn plaque",
@@ -2082,12 +2097,12 @@
     {
       "name": "Civil parishes in the Orkney Islands",
       "level": 1,
-      "files": 29277
+      "files": 29325
     },
     {
       "name": "Birsay and Harray",
       "level": 2,
-      "files": 1422
+      "files": 1433
     },
     {
       "name": "Birsay",
@@ -2662,7 +2677,7 @@
     {
       "name": "Deerness",
       "level": 5,
-      "files": 360
+      "files": 369
     },
     {
       "name": "Brough of Deerness",
@@ -2682,7 +2697,7 @@
     {
       "name": "Mull Head Nature Reserve",
       "level": 6,
-      "files": 24
+      "files": 31
     },
     {
       "name": "Point of Ayre, Orkney Islands",
@@ -2912,7 +2927,7 @@
     {
       "name": "Kirkwall",
       "level": 6,
-      "files": 249
+      "files": 248
     },
     {
       "name": "Bay of Kirkwall",
@@ -2927,7 +2942,7 @@
     {
       "name": "Bishop's Palace, Kirkwall",
       "level": 7,
-      "files": 19
+      "files": 20
     },
     {
       "name": "Churches in Kirkwall",
@@ -2947,7 +2962,7 @@
     {
       "name": "Kirkwall Airport",
       "level": 7,
-      "files": 52
+      "files": 53
     },
     {
       "name": "Aircraft at Kirkwall Airport",
@@ -2977,7 +2992,7 @@
     {
       "name": "Hatston Pier",
       "level": 8,
-      "files": 34
+      "files": 36
     },
     {
       "name": "Kirkwall Lifeboat Station",
@@ -3152,12 +3167,12 @@
     {
       "name": "Palace Road, Kirkwall",
       "level": 8,
-      "files": 261
+      "files": 262
     },
     {
       "name": "Bishop's Palace, Kirkwall",
       "level": 9,
-      "files": 19
+      "files": 20
     },
     {
       "name": "Earl's Palace, Kirkwall",
@@ -3332,7 +3347,7 @@
     {
       "name": "Skara Brae",
       "level": 8,
-      "files": 241
+      "files": 243
     },
     {
       "name": "St Peter's Kirk, Sandwick",
@@ -3377,7 +3392,7 @@
     {
       "name": "St Mary's, Orkney Islands",
       "level": 6,
-      "files": 81
+      "files": 80
     },
     {
       "name": "Stenness",
@@ -3397,7 +3412,7 @@
     {
       "name": "Loch of Stenness",
       "level": 7,
-      "files": 31
+      "files": 35
     },
     {
       "name": "Orphir and Stenness Hills",
@@ -3442,7 +3457,7 @@
     {
       "name": "Plaques in Stromness",
       "level": 7,
-      "files": 11
+      "files": 9
     },
     {
       "name": "Ships registered in Stromness",
@@ -3722,7 +3737,7 @@
     {
       "name": "Twatt, Orkney Islands",
       "level": 6,
-      "files": 12
+      "files": 13
     },
     {
       "name": "Loch of Isbister",
@@ -3752,7 +3767,7 @@
     {
       "name": "RNAS Hatston",
       "level": 5,
-      "files": 43
+      "files": 41
     },
     {
       "name": "Rendall Doocot",
@@ -3867,7 +3882,7 @@
     {
       "name": "North Ronaldsay",
       "level": 5,
-      "files": 131
+      "files": 133
     },
     {
       "name": "Ancumtoun",
@@ -3927,7 +3942,7 @@
     {
       "name": "Old Lighthouse, North Ronaldsay",
       "level": 6,
-      "files": 8
+      "files": 9
     },
     {
       "name": "Stan Stane",
@@ -4132,12 +4147,12 @@
     {
       "name": "Type locality of the Rousay Flagstone Formation",
       "level": 5,
-      "files": 535
+      "files": 536
     },
     {
       "name": "Rousay",
       "level": 6,
-      "files": 251
+      "files": 252
     },
     {
       "name": "Blackhammer Chambered Cairn",
@@ -4217,7 +4232,7 @@
     {
       "name": "Westray",
       "level": 5,
-      "files": 345
+      "files": 351
     },
     {
       "name": "Cliffs of Westray",
@@ -4232,7 +4247,7 @@
     {
       "name": "Links of Noltland",
       "level": 6,
-      "files": 4
+      "files": 6
     },
     {
       "name": "Noltland Castle",
@@ -4392,7 +4407,7 @@
     {
       "name": "Holm, Orkney Islands",
       "level": 2,
-      "files": 49
+      "files": 50
     },
     {
       "name": "Broch of Ayre",
@@ -4457,7 +4472,7 @@
     {
       "name": "St Mary's, Orkney Islands",
       "level": 3,
-      "files": 81
+      "files": 80
     },
     {
       "name": "Hoy and Graemsay",
@@ -4502,7 +4517,7 @@
     {
       "name": "Kirkwall",
       "level": 3,
-      "files": 249
+      "files": 248
     },
     {
       "name": "Scapa Pier",
@@ -4537,7 +4552,7 @@
     {
       "name": "Papa Westray",
       "level": 2,
-      "files": 223
+      "files": 224
     },
     {
       "name": "Bay of Burland",
@@ -4597,7 +4612,7 @@
     {
       "name": "Rousay and Egilsay",
       "level": 2,
-      "files": 856
+      "files": 857
     },
     {
       "name": "Egilsay, Orkney Islands",
@@ -4612,7 +4627,7 @@
     {
       "name": "Rousay",
       "level": 3,
-      "files": 251
+      "files": 252
     },
     {
       "name": "Shapinsay",
@@ -4647,7 +4662,7 @@
     {
       "name": "Stromness (civil parish)",
       "level": 2,
-      "files": 1296
+      "files": 1297
     },
     {
       "name": "Quholm, Stromness",
@@ -4742,7 +4757,7 @@
     {
       "name": "Crofting",
       "level": 1,
-      "files": 6986
+      "files": 6989
     },
     {
       "name": "Crofting law",
@@ -4752,12 +4767,12 @@
     {
       "name": "Field margins",
       "level": 2,
-      "files": 6941
+      "files": 6944
     },
     {
       "name": "Field flowers",
       "level": 3,
-      "files": 6403
+      "files": 6406
     },
     {
       "name": "Centaurea cyanus",
@@ -5132,7 +5147,7 @@
     {
       "name": "Papaver rhoeas",
       "level": 4,
-      "files": 4539
+      "files": 4542
     },
     {
       "name": "Papaver rhoeas (buds)",
@@ -5312,7 +5327,7 @@
     {
       "name": "Papaver rhoeas - botanical illustrations",
       "level": 5,
-      "files": 47
+      "files": 48
     },
     {
       "name": "De papavere in Tractatus de herbis",
@@ -5332,7 +5347,7 @@
     {
       "name": "Papaver rhoeas by country",
       "level": 5,
-      "files": 2013
+      "files": 2014
     },
     {
       "name": "Papaver rhoeas in Algeria",
@@ -5742,7 +5757,7 @@
     {
       "name": "Papaver rhoeas in Sweden",
       "level": 6,
-      "files": 249
+      "files": 250
     },
     {
       "name": "Papaver rhoeas in Skateholm",
@@ -6412,7 +6427,7 @@
     {
       "name": "Papaver rhoeas in art",
       "level": 5,
-      "files": 88
+      "files": 89
     },
     {
       "name": "All Saints, Pavement, Afghanistan Memorial Window, York",
@@ -6442,7 +6457,7 @@
     {
       "name": "Papaver rhoeas - botanical illustrations",
       "level": 6,
-      "files": 47
+      "files": 48
     },
     {
       "name": "Papaver rhoeas on stamps",
@@ -6802,12 +6817,12 @@
     {
       "name": "Geography of the Orkney Islands",
       "level": 1,
-      "files": 14029
+      "files": 14078
     },
     {
       "name": "Bodies of water in the Orkney Islands",
       "level": 2,
-      "files": 529
+      "files": 537
     },
     {
       "name": "Bays of the Orkney Islands",
@@ -6917,7 +6932,7 @@
     {
       "name": "Lochs of the Orkney Islands",
       "level": 3,
-      "files": 195
+      "files": 203
     },
     {
       "name": "Hoglinns Water",
@@ -6982,7 +6997,7 @@
     {
       "name": "Loch of Stenness",
       "level": 4,
-      "files": 31
+      "files": 35
     },
     {
       "name": "Loch of Swannay",
@@ -7152,12 +7167,12 @@
     {
       "name": "Landforms of the Orkney Islands",
       "level": 2,
-      "files": 7398
+      "files": 7421
     },
     {
       "name": "Cliffs of the Orkney Islands",
       "level": 3,
-      "files": 221
+      "files": 226
     },
     {
       "name": "Cliffs of Copinsay",
@@ -7267,7 +7282,7 @@
     {
       "name": "Islands of the Orkney Islands",
       "level": 3,
-      "files": 6891
+      "files": 6909
     },
     {
       "name": "Auskerry",
@@ -7407,7 +7422,7 @@
     {
       "name": "North Ronaldsay",
       "level": 4,
-      "files": 131
+      "files": 133
     },
     {
       "name": "Orkney Mainland",
@@ -7432,12 +7447,12 @@
     {
       "name": "Papa Westray",
       "level": 4,
-      "files": 223
+      "files": 224
     },
     {
       "name": "Rousay",
       "level": 4,
-      "files": 251
+      "files": 252
     },
     {
       "name": "Sanday, Orkney Islands",
@@ -7542,7 +7557,7 @@
     {
       "name": "South Ronaldsay",
       "level": 4,
-      "files": 1179
+      "files": 1187
     },
     {
       "name": "Banks Chambered Tomb",
@@ -7563,6 +7578,11 @@
       "name": "Cleat, South Ronaldsay",
       "level": 5,
       "files": 10
+    },
+    {
+      "name": "Clouduhall standing stone",
+      "level": 5,
+      "files": 2
     },
     {
       "name": "Hoxa, Orkney Islands",
@@ -7588,6 +7608,11 @@
       "name": "Listed buildings in South Ronaldsay",
       "level": 5,
       "files": 0
+    },
+    {
+      "name": "Sorquoy standing stone",
+      "level": 5,
+      "files": 5
     },
     {
       "name": "St Margaret's Hope",
@@ -7877,7 +7902,7 @@
     {
       "name": "Westray",
       "level": 4,
-      "files": 345
+      "files": 351
     },
     {
       "name": "Wyre, Orkney Islands",
@@ -7907,7 +7932,7 @@
     {
       "name": "Maps of the Orkney Islands",
       "level": 2,
-      "files": 276
+      "files": 278
     },
     {
       "name": "Election maps of the Orkney Islands",
@@ -7972,7 +7997,7 @@
     {
       "name": "Populated places in the Orkney Islands",
       "level": 2,
-      "files": 3466
+      "files": 3477
     },
     {
       "name": "Hamlets in the Orkney Islands",
@@ -8082,7 +8107,7 @@
     {
       "name": "Villages in the Orkney Islands",
       "level": 3,
-      "files": 3405
+      "files": 3416
     },
     {
       "name": "Ancumtoun",
@@ -8137,7 +8162,7 @@
     {
       "name": "Deerness",
       "level": 4,
-      "files": 360
+      "files": 369
     },
     {
       "name": "Dounby",
@@ -8187,7 +8212,7 @@
     {
       "name": "Holm, Orkney Islands",
       "level": 4,
-      "files": 49
+      "files": 50
     },
     {
       "name": "Holodyke",
@@ -8292,7 +8317,7 @@
     {
       "name": "Twatt, Orkney Islands",
       "level": 4,
-      "files": 12
+      "files": 13
     },
     {
       "name": "Villages on Hoy",
@@ -8377,7 +8402,7 @@
     {
       "name": "Loch of Stenness",
       "level": 3,
-      "files": 31
+      "files": 35
     },
     {
       "name": "Mill Loch, Eday",
@@ -8392,7 +8417,7 @@
     {
       "name": "Rousay",
       "level": 3,
-      "files": 251
+      "files": 252
     },
     {
       "name": "Sanday, Orkney Islands",
@@ -8462,7 +8487,7 @@
     {
       "name": "Geology of the Orkney Islands",
       "level": 1,
-      "files": 5225
+      "files": 5227
     },
     {
       "name": "Coastal erosion in the Orkney Islands",
@@ -8497,7 +8522,7 @@
     {
       "name": "Old Red Sandstone in Scotland",
       "level": 2,
-      "files": 4129
+      "files": 4131
     },
     {
       "name": "Auchmithie Cliffs",
@@ -8517,7 +8542,7 @@
     {
       "name": "Bressay",
       "level": 3,
-      "files": 612
+      "files": 614
     },
     {
       "name": "Aith Voe, Bressay",
@@ -8542,7 +8567,7 @@
     {
       "name": "Bressay Lighthouse",
       "level": 4,
-      "files": 83
+      "files": 84
     },
     {
       "name": "Bressay Sound",
@@ -9847,7 +9872,7 @@
     {
       "name": "Nature of the Orkney Islands",
       "level": 1,
-      "files": 484
+      "files": 495
     },
     {
       "name": "Agriculture in the Orkney Islands",
@@ -9857,12 +9882,12 @@
     {
       "name": "Animals of the Orkney Islands",
       "level": 2,
-      "files": 221
+      "files": 232
     },
     {
       "name": "Birds of the Orkney Islands",
       "level": 3,
-      "files": 94
+      "files": 106
     },
     {
       "name": "Decapoda of the Orkney Islands",
@@ -10202,12 +10227,12 @@
     {
       "name": "Scheduled monuments in the Orkney Islands",
       "level": 1,
-      "files": 731
+      "files": 735
     },
     {
       "name": "Bishop's Palace, Kirkwall",
       "level": 2,
-      "files": 19
+      "files": 20
     },
     {
       "name": "Blackhammer Chambered Cairn",
@@ -10262,7 +10287,7 @@
     {
       "name": "Links of Noltland",
       "level": 2,
-      "files": 4
+      "files": 6
     },
     {
       "name": "Midhowe Broch",
@@ -10282,7 +10307,7 @@
     {
       "name": "Old Lighthouse, North Ronaldsay",
       "level": 2,
-      "files": 8
+      "files": 9
     },
     {
       "name": "Orphir Church",
@@ -10367,7 +10392,7 @@
     {
       "name": "Tourism in the Orkney Islands",
       "level": 1,
-      "files": 1932
+      "files": 1937
     },
     {
       "name": "Bothies in the Orkney Islands",
@@ -10387,7 +10412,7 @@
     {
       "name": "Visitor attractions in the Orkney Islands",
       "level": 2,
-      "files": 1910
+      "files": 1915
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
@@ -10402,12 +10427,12 @@
     {
       "name": "Historic Scotland properties in the Orkney Islands",
       "level": 3,
-      "files": 1751
+      "files": 1756
     },
     {
       "name": "Bishop's Palace, Kirkwall",
       "level": 4,
-      "files": 19
+      "files": 20
     },
     {
       "name": "Blackhammer Chambered Cairn",
@@ -10487,7 +10512,7 @@
     {
       "name": "Links of Noltland",
       "level": 4,
-      "files": 4
+      "files": 6
     },
     {
       "name": "Maeshowe",
@@ -10547,7 +10572,7 @@
     {
       "name": "Skara Brae",
       "level": 4,
-      "files": 241
+      "files": 243
     },
     {
       "name": "St Magnus Church, Egilsay",
@@ -10617,12 +10642,12 @@
     {
       "name": "Transport in the Orkney Islands",
       "level": 1,
-      "files": 911
+      "files": 932
     },
     {
       "name": "Airfields in the Orkney Islands",
       "level": 2,
-      "files": 111
+      "files": 112
     },
     {
       "name": "Eday Airport",
@@ -10637,7 +10662,7 @@
     {
       "name": "Kirkwall Airport",
       "level": 3,
-      "files": 52
+      "files": 53
     },
     {
       "name": "North Ronaldsay Airport",
@@ -10772,7 +10797,7 @@
     {
       "name": "Roads in the Orkney Islands",
       "level": 2,
-      "files": 596
+      "files": 616
     },
     {
       "name": "A960 road (Scotland)",
