@@ -1,7 +1,7 @@
 {
-  "updated": "2025-12-14T03:50:27.314542Z",
+  "updated": "2025-12-21T03:52:38.633098Z",
   "root_category": "Orkney Islands",
-  "total_categories": 2185,
+  "total_categories": 2184,
   "max_depth": 10,
   "categories": [
     {
@@ -347,12 +347,12 @@
     {
       "name": "Architecture of the Orkney Islands",
       "level": 1,
-      "files": 7387
+      "files": 8417
     },
     {
       "name": "Buildings in the Orkney Islands",
       "level": 2,
-      "files": 6630
+      "files": 7575
     },
     {
       "name": "Bothies in the Orkney Islands",
@@ -387,7 +387,7 @@
     {
       "name": "Stromness Town Hall",
       "level": 4,
-      "files": 12
+      "files": 13
     },
     {
       "name": "Castles in the Orkney Islands",
@@ -502,7 +502,7 @@
     {
       "name": "Church elements in the Orkney Islands",
       "level": 4,
-      "files": 294
+      "files": 519
     },
     {
       "name": "Church furniture in the Orkney Islands",
@@ -517,17 +517,17 @@
     {
       "name": "Church windows in the Orkney Islands",
       "level": 5,
-      "files": 29
+      "files": 103
     },
     {
       "name": "Kirkwall Cathedral (stained glass)",
       "level": 6,
-      "files": 27
+      "files": 101
     },
     {
       "name": "Interiors of churches in the Orkney Islands",
       "level": 5,
-      "files": 262
+      "files": 413
     },
     {
       "name": "Italian Chapel (interior)",
@@ -537,17 +537,17 @@
     {
       "name": "Kirkwall Cathedral (interior)",
       "level": 6,
-      "files": 79
+      "files": 145
     },
     {
       "name": "Kirkwall Cathedral (stained glass)",
       "level": 7,
-      "files": 27
+      "files": 101
     },
     {
       "name": "Kirkwall Cathedral Monuments (interior)",
       "level": 7,
-      "files": 33
+      "files": 40
     },
     {
       "name": "John Rae Memorial",
@@ -557,12 +557,12 @@
     {
       "name": "Mort brod, St Magnus Cathedral",
       "level": 8,
-      "files": 5
+      "files": 6
     },
     {
       "name": "Royal Oak Memorial",
       "level": 8,
-      "files": 6
+      "files": 9
     },
     {
       "name": "Tomb of William Balfour Baikie",
@@ -577,17 +577,17 @@
     {
       "name": "Kirkwall Baptist Church",
       "level": 5,
-      "files": 4
+      "files": 7
     },
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 5,
-      "files": 187
+      "files": 291
     },
     {
       "name": "Kirkwall Cathedral (interior)",
       "level": 6,
-      "files": 79
+      "files": 145
     },
     {
       "name": "Plans of St Magnus Cathedral, Kirkwall",
@@ -600,34 +600,29 @@
       "files": 19
     },
     {
-      "name": "St Magnus Cathedral, Kirkwall, Orkney",
-      "level": 6,
-      "files": 110
-    },
-    {
       "name": "St Olaf's Church, Kirkwall",
       "level": 5,
-      "files": 3
+      "files": 8
     },
     {
       "name": "Churches in the Orkney Islands by denomination",
       "level": 4,
-      "files": 320
+      "files": 432
     },
     {
       "name": "Baptist churches in the Orkney Islands",
       "level": 5,
-      "files": 4
+      "files": 7
     },
     {
       "name": "Kirkwall Baptist Church",
       "level": 6,
-      "files": 4
+      "files": 7
     },
     {
       "name": "Church of Scotland churches in the Orkney Islands",
       "level": 5,
-      "files": 206
+      "files": 310
     },
     {
       "name": "Former Sandwick Church of Scotland, Quoyloo, Sandwick",
@@ -637,7 +632,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 6,
-      "files": 187
+      "files": 291
     },
     {
       "name": "St Peter's Kirk, Sandwick",
@@ -647,12 +642,12 @@
     {
       "name": "Episcopal churches in the Orkney Islands",
       "level": 5,
-      "files": 4
+      "files": 9
     },
     {
       "name": "St Olaf's Church, Kirkwall",
       "level": 6,
-      "files": 3
+      "files": 8
     },
     {
       "name": "Roman Catholic churches in the Orkney Islands",
@@ -677,12 +672,12 @@
     {
       "name": "Churches in the Orkney Islands by shape",
       "level": 4,
-      "files": 192
+      "files": 200
     },
     {
       "name": "Aisleless churches in the Orkney Islands",
       "level": 5,
-      "files": 192
+      "files": 200
     },
     {
       "name": "Italian Chapel",
@@ -692,7 +687,7 @@
     {
       "name": "Kirkwall Baptist Church",
       "level": 6,
-      "files": 4
+      "files": 7
     },
     {
       "name": "St Boniface Kirk, Papa Westray",
@@ -717,7 +712,7 @@
     {
       "name": "St Olaf's Church, Kirkwall",
       "level": 6,
-      "files": 3
+      "files": 8
     },
     {
       "name": "Stenness Kirk",
@@ -732,12 +727,12 @@
     {
       "name": "Churches in the Orkney Islands by style",
       "level": 4,
-      "files": 549
+      "files": 765
     },
     {
       "name": "Gothic Revival churches in the Orkney Islands",
       "level": 5,
-      "files": 126
+      "files": 131
     },
     {
       "name": "Italian Chapel",
@@ -752,7 +747,7 @@
     {
       "name": "St Olaf's Church, Kirkwall",
       "level": 6,
-      "files": 3
+      "files": 8
     },
     {
       "name": "Stenness Kirk",
@@ -762,27 +757,27 @@
     {
       "name": "Gothic churches in the Orkney Islands",
       "level": 5,
-      "files": 187
+      "files": 291
     },
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 6,
-      "files": 187
+      "files": 291
     },
     {
       "name": "Romanesque Revival churches in the Orkney Islands",
       "level": 5,
-      "files": 4
+      "files": 7
     },
     {
       "name": "Kirkwall Baptist Church",
       "level": 6,
-      "files": 4
+      "files": 7
     },
     {
       "name": "Romanesque churches in the Orkney Islands",
       "level": 5,
-      "files": 232
+      "files": 336
     },
     {
       "name": "St Boniface Kirk, Papa Westray",
@@ -792,7 +787,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 6,
-      "files": 187
+      "files": 291
     },
     {
       "name": "St Magnus Church, Egilsay",
@@ -982,7 +977,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 6,
-      "files": 187
+      "files": 291
     },
     {
       "name": "St Peter's Kirk, Sandwick",
@@ -1012,7 +1007,7 @@
     {
       "name": "Kirkwall Baptist Church",
       "level": 6,
-      "files": 4
+      "files": 7
     },
     {
       "name": "Milestone Community Church, Dounby, Sandwick",
@@ -1132,12 +1127,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 4,
-      "files": 187
-    },
-    {
-      "name": "St Magnus Cathedral, Kirkwall, Orkney",
-      "level": 4,
-      "files": 110
+      "files": 291
     },
     {
       "name": "St Mary's Episcopal Church, Stromness",
@@ -1437,12 +1427,12 @@
     {
       "name": "Listed buildings in the Orkney Islands",
       "level": 3,
-      "files": 1327
+      "files": 1540
     },
     {
       "name": "Category A listed buildings in the Orkney Islands",
       "level": 4,
-      "files": 594
+      "files": 699
     },
     {
       "name": "Balfour Castle",
@@ -1477,7 +1467,7 @@
     {
       "name": "Churchill Barrier 4",
       "level": 5,
-      "files": 31
+      "files": 32
     },
     {
       "name": "Echna Loch",
@@ -1537,7 +1527,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 5,
-      "files": 187
+      "files": 291
     },
     {
       "name": "The Orkney Museum",
@@ -1677,7 +1667,7 @@
     {
       "name": "Kirkwall Baptist Church",
       "level": 5,
-      "files": 4
+      "files": 7
     },
     {
       "name": "Kirkwall Town Hall",
@@ -1687,7 +1677,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 5,
-      "files": 187
+      "files": 291
     },
     {
       "name": "The Orkney Museum",
@@ -1707,7 +1697,7 @@
     {
       "name": "Churchill Barrier 4",
       "level": 5,
-      "files": 31
+      "files": 32
     },
     {
       "name": "Former St Peter's Church of Scotland, Aikers, South Ronaldsay",
@@ -1882,7 +1872,7 @@
     {
       "name": "Town halls in the Orkney Islands",
       "level": 3,
-      "files": 45
+      "files": 46
     },
     {
       "name": "Kirkwall Town Hall",
@@ -1897,22 +1887,22 @@
     {
       "name": "Stromness Town Hall",
       "level": 4,
-      "files": 12
+      "files": 13
     },
     {
       "name": "Stained-glass windows in the Orkney Islands",
       "level": 2,
-      "files": 30
+      "files": 104
     },
     {
       "name": "Kirkwall Cathedral (stained glass)",
       "level": 3,
-      "files": 27
+      "files": 101
     },
     {
       "name": "Structures in the Orkney Islands",
       "level": 2,
-      "files": 727
+      "files": 738
     },
     {
       "name": "Bridges in the Orkney Islands",
@@ -1932,7 +1922,7 @@
     {
       "name": "Causeways in the Orkney Islands",
       "level": 3,
-      "files": 187
+      "files": 188
     },
     {
       "name": "Churchill Barriers",
@@ -1957,7 +1947,7 @@
     {
       "name": "Churchill Barrier 4",
       "level": 5,
-      "files": 31
+      "files": 32
     },
     {
       "name": "Fences in the Orkney Islands",
@@ -1972,7 +1962,7 @@
     {
       "name": "Monuments and memorials in the Orkney Islands",
       "level": 3,
-      "files": 226
+      "files": 236
     },
     {
       "name": "Covenanter's Memorial, Deerness",
@@ -1992,7 +1982,7 @@
     {
       "name": "Kirkwall Cathedral Monuments (interior)",
       "level": 4,
-      "files": 33
+      "files": 40
     },
     {
       "name": "Plaques in the Orkney Islands",
@@ -2017,7 +2007,7 @@
     {
       "name": "War memorials in the Orkney Islands",
       "level": 4,
-      "files": 84
+      "files": 87
     },
     {
       "name": "Holm war memorial",
@@ -2032,7 +2022,7 @@
     {
       "name": "Royal Oak Memorial",
       "level": 5,
-      "files": 6
+      "files": 9
     },
     {
       "name": "St. George and the Dragon, Italian Chapel",
@@ -2097,7 +2087,7 @@
     {
       "name": "Civil parishes in the Orkney Islands",
       "level": 1,
-      "files": 29325
+      "files": 29480
     },
     {
       "name": "Birsay and Harray",
@@ -2242,7 +2232,7 @@
     {
       "name": "Eday Sandstone",
       "level": 4,
-      "files": 941
+      "files": 1045
     },
     {
       "name": "Lower Eday Sandstone",
@@ -2337,7 +2327,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 5,
-      "files": 187
+      "files": 291
     },
     {
       "name": "Upper Eday Sandstone Formation",
@@ -2927,7 +2917,7 @@
     {
       "name": "Kirkwall",
       "level": 6,
-      "files": 248
+      "files": 247
     },
     {
       "name": "Bay of Kirkwall",
@@ -2987,7 +2977,7 @@
     {
       "name": "Kirkwall Harbour",
       "level": 7,
-      "files": 108
+      "files": 110
     },
     {
       "name": "Hatston Pier",
@@ -3147,7 +3137,7 @@
     {
       "name": "Broad Street, Kirkwall",
       "level": 8,
-      "files": 243
+      "files": 347
     },
     {
       "name": "Kirkwall Town Hall",
@@ -3157,7 +3147,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 9,
-      "files": 187
+      "files": 291
     },
     {
       "name": "The Orkney Museum",
@@ -3167,7 +3157,7 @@
     {
       "name": "Palace Road, Kirkwall",
       "level": 8,
-      "files": 262
+      "files": 366
     },
     {
       "name": "Bishop's Palace, Kirkwall",
@@ -3182,7 +3172,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 9,
-      "files": 187
+      "files": 291
     },
     {
       "name": "Union Street, Kirkwall",
@@ -3437,7 +3427,7 @@
     {
       "name": "Stromness",
       "level": 6,
-      "files": 543
+      "files": 542
     },
     {
       "name": "Alexander Graham Fountain, Stromness",
@@ -4507,7 +4497,7 @@
     {
       "name": "Kirkwall and St Ola",
       "level": 2,
-      "files": 1634
+      "files": 1478
     },
     {
       "name": "Highland Park distillery",
@@ -4517,7 +4507,7 @@
     {
       "name": "Kirkwall",
       "level": 3,
-      "files": 248
+      "files": 247
     },
     {
       "name": "Scapa Pier",
@@ -4662,7 +4652,7 @@
     {
       "name": "Stromness (civil parish)",
       "level": 2,
-      "files": 1297
+      "files": 1296
     },
     {
       "name": "Quholm, Stromness",
@@ -4672,7 +4662,7 @@
     {
       "name": "Stromness",
       "level": 3,
-      "files": 543
+      "files": 542
     },
     {
       "name": "Walls and Flotta",
@@ -6652,7 +6642,7 @@
     {
       "name": "Economy of the Orkney Islands",
       "level": 1,
-      "files": 886
+      "files": 888
     },
     {
       "name": "Agriculture in the Orkney Islands",
@@ -6722,7 +6712,7 @@
     {
       "name": "Industry in the Orkney Islands",
       "level": 2,
-      "files": 315
+      "files": 317
     },
     {
       "name": "Highland Brewing Company (Orkney)",
@@ -6747,7 +6737,7 @@
     {
       "name": "Kirkwall Harbour",
       "level": 4,
-      "files": 108
+      "files": 110
     },
     {
       "name": "Piers in the Orkney Islands",
@@ -6812,7 +6802,7 @@
     {
       "name": "Flags of the Orkney Islands",
       "level": 1,
-      "files": 15
+      "files": 17
     },
     {
       "name": "Geography of the Orkney Islands",
@@ -8487,7 +8477,7 @@
     {
       "name": "Geology of the Orkney Islands",
       "level": 1,
-      "files": 5227
+      "files": 5331
     },
     {
       "name": "Coastal erosion in the Orkney Islands",
@@ -8522,7 +8512,7 @@
     {
       "name": "Old Red Sandstone in Scotland",
       "level": 2,
-      "files": 4131
+      "files": 4235
     },
     {
       "name": "Auchmithie Cliffs",
@@ -8972,7 +8962,7 @@
     {
       "name": "Old Red Sandstone buildings in Scotland",
       "level": 3,
-      "files": 373
+      "files": 477
     },
     {
       "name": "Dwarfie Stane",
@@ -9012,7 +9002,7 @@
     {
       "name": "St Magnus Cathedral, Kirkwall",
       "level": 4,
-      "files": 187
+      "files": 291
     },
     {
       "name": "Stonehaven Tolbooth",
@@ -10352,7 +10342,12 @@
     {
       "name": "Signs in the Orkney Islands",
       "level": 1,
-      "files": 47
+      "files": 67
+    },
+    {
+      "name": "Flags in the Orkney Islands",
+      "level": 2,
+      "files": 20
     },
     {
       "name": "Information boards in the Orkney Islands",
