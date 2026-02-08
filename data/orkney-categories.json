@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-01T04:33:38.228076Z",
+  "updated": "2026-02-08T04:36:50.402594Z",
   "root_category": "Orkney Islands",
-  "total_categories": 238,
+  "total_categories": 183,
   "max_depth": 10,
   "categories": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 14
+      "files": 2358
     },
     {
       "name": "Banks Chambered Tomb",
@@ -892,7 +892,7 @@
     {
       "name": "Signs in the Orkney Islands",
       "level": 1,
-      "files": 14
+      "files": 0
     },
     {
       "name": "Sons of the Most Holy Redeemer",
@@ -907,176 +907,6 @@
     {
       "name": "Tourism in the Orkney Islands",
       "level": 1,
-      "files": 62
-    },
-    {
-      "name": "Bothies in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Campsites in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Hotels in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Hotel",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Stromness Hotel",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Visitor attractions in the Orkney Islands",
-      "level": 2,
-      "files": 62
-    },
-    {
-      "name": "Archaeological sites in the Orkney Islands",
-      "level": 3,
-      "files": 14
-    },
-    {
-      "name": "Churches in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Historic Scotland properties in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Italian Chapel",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Italian Chapel (interior)",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "St. George and the Dragon, Italian Chapel",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Lighthouses in the Orkney Islands",
-      "level": 3,
-      "files": 48
-    },
-    {
-      "name": "Auskerry Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Brough of Birsay Lighthouse",
-      "level": 4,
-      "files": 48
-    },
-    {
-      "name": "Calf of Eday light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Cantick Head Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Cava Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Copinsay Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Helliar Holm",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Hoxa Head Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Hoy Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Hoy Sound Low Light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Old West Pier Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "North Ronaldsay Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Noup Head Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Old Lighthouse, North Ronaldsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Pentland Skerries High Light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Pentland Skerries Low Light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Start Point (Sanday) Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Sule Skerry",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Tor Ness Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Museums in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Picnic places in the Orkney Islands",
-      "level": 3,
       "files": 0
     },
     {
@@ -1087,111 +917,6 @@
     {
       "name": "Transport in the Orkney Islands",
       "level": 1,
-      "files": 0
-    },
-    {
-      "name": "Airfields in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Bridges in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Bus transport in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Bus operators in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Bus stops in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Buses in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Cycling in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Footpaths in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Orkney Ferries",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Earl Sigurd (ship, 1990)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Earl Thorfinn (ship, 1990)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Eynhallow (ship, 1987)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Golden Mariana (Ship, 1973)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Graemsay (ship, 1996)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Hoy Head (ship, 1994)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Shapinsay (ship, 1989)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Thorsvoe (ship, 1991)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Varagen (ship, 1989)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Ports and harbours in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Roads in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Ships in the Orkney Islands",
-      "level": 2,
       "files": 0
     }
   ]
