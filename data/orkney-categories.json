@@ -1,7 +1,7 @@
 {
-  "updated": "2026-02-22T04:22:53.068762Z",
+  "updated": "2026-03-01T04:26:53.301081Z",
   "root_category": "Orkney Islands",
-  "total_categories": 96,
+  "total_categories": 183,
   "max_depth": 10,
   "categories": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 2453
+      "files": 2370
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 2441
+      "files": 2358
     },
     {
       "name": "Banks Chambered Tomb",
@@ -242,7 +242,7 @@
     {
       "name": "Standing stones in the Orkney Islands",
       "level": 3,
-      "files": 48
+      "files": 33
     },
     {
       "name": "Barnhouse Stone",
@@ -277,7 +277,7 @@
     {
       "name": "Odin Stone",
       "level": 4,
-      "files": 1
+      "files": 0
     },
     {
       "name": "Sorquoy standing stone",
@@ -287,7 +287,7 @@
     {
       "name": "Stan Stane",
       "level": 4,
-      "files": 8
+      "files": 0
     },
     {
       "name": "Stanerandy standing stones",
@@ -297,7 +297,7 @@
     {
       "name": "Stembister standing stone",
       "level": 4,
-      "files": 2
+      "files": 0
     },
     {
       "name": "Stone of Setter",
@@ -307,7 +307,7 @@
     {
       "name": "Wheebin standing stone",
       "level": 4,
-      "files": 4
+      "files": 0
     },
     {
       "name": "Yetnasteen",
@@ -317,7 +317,7 @@
     {
       "name": "Taversöe Tuick Chambered Cairn",
       "level": 3,
-      "files": 53
+      "files": 0
     },
     {
       "name": "Unstan Chambered Cairn",
@@ -327,7 +327,7 @@
     {
       "name": "Wideford Hill Chambered Cairn",
       "level": 3,
-      "files": 15
+      "files": 0
     },
     {
       "name": "Cairns in the Orkney Islands",
@@ -357,7 +357,7 @@
     {
       "name": "Black and white photographs of the Orkney Islands",
       "level": 1,
-      "files": 19
+      "files": 0
     },
     {
       "name": "Caves in the Orkney Islands",
@@ -372,6 +372,21 @@
     {
       "name": "Crofting",
       "level": 1,
+      "files": 0
+    },
+    {
+      "name": "Crofting law",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Field margins",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Lynbreck Croft",
+      "level": 2,
       "files": 0
     },
     {
@@ -390,6 +405,26 @@
       "files": 0
     },
     {
+      "name": "Libraries in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Museums in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Schools in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Old Schoolhouse, Rackwick",
+      "level": 3,
+      "files": 0
+    },
+    {
       "name": "European Marine Energy Center",
       "level": 1,
       "files": 0
@@ -397,7 +432,7 @@
     {
       "name": "Flags of the Orkney Islands",
       "level": 1,
-      "files": 17
+      "files": 0
     },
     {
       "name": "Geography of the Orkney Islands",
@@ -407,7 +442,7 @@
     {
       "name": "Geology of the Orkney Islands",
       "level": 1,
-      "files": 39
+      "files": 0
     },
     {
       "name": "Graves in the Orkney Islands",
@@ -415,9 +450,409 @@
       "files": 0
     },
     {
+      "name": "Burial grounds in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Gravestones in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
       "name": "History of the Orkney Islands",
       "level": 1,
-      "files": 12
+      "files": 0
+    },
+    {
+      "name": "Earls of the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands by century",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands by decade",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 1940s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 1970s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 1980s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1980 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "1985 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "1987 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "1988 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 2000s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 2010s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2010 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "2012 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "2013 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "May 2013 in the Orkney Islands",
+      "level": 5,
+      "files": 0
+    },
+    {
+      "name": "2016 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "2018 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "June 2018 in the Orkney Islands",
+      "level": 5,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 2020s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands by month",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "April in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "August in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "February in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "February 2010 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "July in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "June in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "June 2008 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "June 2018 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "June 2021 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "June 2023 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "May in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "October in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "September in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "September 2021 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "September 2022 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands by year",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "1940 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1942 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1943 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "King George VI visiting the Home Fleet in March 1943",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "1974 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1975 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1980 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1985 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1987 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1988 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2004 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2006 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2007 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "August 2007 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "July 2007 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "2008 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "August 2008 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "December 2008 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "June 2008 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "2009 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "August 2009 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "January 2009 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "March 2009 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "2010 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2012 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2013 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2016 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2018 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2021 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2022 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "2023 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "July 2023 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "June 2023 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "2025 in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in World War II",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Lyness Naval Cemetery",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 20th century",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Orkneyinga saga",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Magnus Erlendsson",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "The Orkneyinga Saga (1873)",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Runestones in the Orkney Islands",
+      "level": 2,
+      "files": 0
     },
     {
       "name": "Nature of the Orkney Islands",
@@ -427,7 +862,7 @@
     {
       "name": "Orcadian fairy tales",
       "level": 1,
-      "files": 2
+      "files": 0
     },
     {
       "name": "Orkney Islands Council",
@@ -437,7 +872,7 @@
     {
       "name": "Panoramics of the Orkney Islands",
       "level": 1,
-      "files": 1
+      "files": 0
     },
     {
       "name": "People of the Orkney Islands",
@@ -447,7 +882,7 @@
     {
       "name": "Post offices in the Orkney Islands",
       "level": 1,
-      "files": 12
+      "files": 0
     },
     {
       "name": "Scheduled monuments in the Orkney Islands",
@@ -457,7 +892,7 @@
     {
       "name": "Signs in the Orkney Islands",
       "level": 1,
-      "files": 14
+      "files": 0
     },
     {
       "name": "Sons of the Most Holy Redeemer",
@@ -467,7 +902,7 @@
     {
       "name": "Sports in the Orkney Islands",
       "level": 1,
-      "files": 3
+      "files": 0
     },
     {
       "name": "Tourism in the Orkney Islands",
@@ -477,7 +912,7 @@
     {
       "name": "Traffic signals in the Orkney Islands",
       "level": 1,
-      "files": 1
+      "files": 0
     },
     {
       "name": "Transport in the Orkney Islands",
