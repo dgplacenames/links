@@ -1,7 +1,7 @@
 {
-  "updated": "2026-03-08T04:19:35.705257Z",
+  "updated": "2026-03-15T04:39:30.868388Z",
   "root_category": "Orkney Islands",
-  "total_categories": 754,
+  "total_categories": 656,
   "max_depth": 10,
   "categories": [
     {
@@ -17,7 +17,7 @@
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 14
+      "files": 2358
     },
     {
       "name": "Banks Chambered Tomb",
@@ -147,7 +147,7 @@
     {
       "name": "Standing Stones of Stenness",
       "level": 4,
-      "files": 123
+      "files": 141
     },
     {
       "name": "Watch Stone",
@@ -172,7 +172,7 @@
     {
       "name": "Links of Noltland",
       "level": 3,
-      "files": 6
+      "files": 8
     },
     {
       "name": "Westray Wife",
@@ -522,7 +522,7 @@
     {
       "name": "Civil parishes in the Orkney Islands",
       "level": 1,
-      "files": 867
+      "files": 689
     },
     {
       "name": "Birsay and Harray",
@@ -840,8 +840,63 @@
       "files": 0
     },
     {
+      "name": "Locator maps of civil parishes in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
       "name": "Papa Westray",
       "level": 2,
+      "files": 45
+    },
+    {
+      "name": "Bay of Burland",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Cliffs of Papa Westray",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Holland, Papa Westray",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Holm of Papa",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Knap of Howar",
+      "level": 3,
+      "files": 45
+    },
+    {
+      "name": "Moclett",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "North Hill RSPB reserve",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Papa Westray Airport",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Southwick Beach, Papa Westray",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "St Boniface Kirk, Papa Westray",
+      "level": 3,
       "files": 0
     },
     {
@@ -942,7 +997,7 @@
     {
       "name": "Shapinsay",
       "level": 2,
-      "files": 86
+      "files": 18
     },
     {
       "name": "Balfour Castle",
@@ -952,12 +1007,12 @@
     {
       "name": "Balfour, Orkney Islands",
       "level": 3,
-      "files": 34
+      "files": 0
     },
     {
       "name": "Helliar Holm",
       "level": 4,
-      "files": 34
+      "files": 0
     },
     {
       "name": "Bay of Linton",
@@ -977,7 +1032,7 @@
     {
       "name": "Helliar Holm",
       "level": 3,
-      "files": 34
+      "files": 0
     },
     {
       "name": "Lairo Water",
@@ -1022,7 +1077,27 @@
     {
       "name": "Stenness (civil parish)",
       "level": 2,
-      "files": 621
+      "files": 466
+    },
+    {
+      "name": "Maeshowe",
+      "level": 3,
+      "files": 140
+    },
+    {
+      "name": "Ring of Brodgar",
+      "level": 3,
+      "files": 326
+    },
+    {
+      "name": "Stenness",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Tormiston Mill",
+      "level": 3,
+      "files": 0
     },
     {
       "name": "Stromness (civil parish)",
@@ -1212,7 +1287,7 @@
     {
       "name": "Geography of the Orkney Islands",
       "level": 1,
-      "files": 660
+      "files": 678
     },
     {
       "name": "Bodies of water in the Orkney Islands",
@@ -1222,7 +1297,7 @@
     {
       "name": "Coasts of the Orkney Islands",
       "level": 2,
-      "files": 110
+      "files": 0
     },
     {
       "name": "Bay of Skaill",
@@ -1310,16 +1385,6 @@
       "files": 0
     },
     {
-      "name": "Sandi Sand",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Southwick Beach, Papa Westray",
-      "level": 4,
-      "files": 0
-    },
-    {
       "name": "Geos of the Orkney Islands",
       "level": 3,
       "files": 0
@@ -1327,31 +1392,6 @@
     {
       "name": "Headlands of the Orkney Islands",
       "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Head of Holland, Orkney Islands",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Marwick Head",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Kitchener Memorial, Orkney Islands",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "North Ness, Hoy",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Noup Head",
-      "level": 4,
       "files": 0
     },
     {
@@ -1372,11 +1412,31 @@
     {
       "name": "Kirkwall Harbour",
       "level": 4,
-      "files": 110
+      "files": 0
     },
     {
       "name": "Piers in the Orkney Islands",
       "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Gill Pier",
+      "level": 5,
+      "files": 0
+    },
+    {
+      "name": "Moaness Pier",
+      "level": 5,
+      "files": 0
+    },
+    {
+      "name": "Moclett",
+      "level": 5,
+      "files": 0
+    },
+    {
+      "name": "Scapa Pier",
+      "level": 5,
       "files": 0
     },
     {
@@ -1397,6 +1457,21 @@
     {
       "name": "Fields in the Orkney Islands",
       "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Fields in Orkney Mainland",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Pastures in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Stubble fields in the Orkney Islands",
+      "level": 3,
       "files": 0
     },
     {
@@ -1426,6 +1501,11 @@
     },
     {
       "name": "Election maps of the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Locator maps of civil parishes in the Orkney Islands",
       "level": 3,
       "files": 0
     },
@@ -1467,7 +1547,7 @@
     {
       "name": "Populated places in the Orkney Islands",
       "level": 2,
-      "files": 550
+      "files": 678
     },
     {
       "name": "Hamlets in the Orkney Islands",
@@ -1477,7 +1557,7 @@
     {
       "name": "Populated places on Orkney Mainland",
       "level": 3,
-      "files": 550
+      "files": 678
     },
     {
       "name": "Bimbister",
@@ -1582,211 +1662,16 @@
     {
       "name": "Kirbuster, Birsay and Harray",
       "level": 4,
-      "files": 0
+      "files": 9
     },
     {
       "name": "Kirbuster Farm Museum",
       "level": 5,
-      "files": 0
+      "files": 9
     },
     {
       "name": "Kirkwall",
       "level": 4,
-      "files": 130
-    },
-    {
-      "name": "Bay of Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Big Tree, Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Bishop's Palace, Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Bishop's Palace plaque",
-      "level": 6,
-      "files": 1
-    },
-    {
-      "name": "Churches in Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Earl's Palace, Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Grain Earth House",
-      "level": 5,
-      "files": 14
-    },
-    {
-      "name": "Kirkwall Airport",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Harbour",
-      "level": 5,
-      "files": 110
-    },
-    {
-      "name": "Kirkwall Hotel",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Sheriff Court",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Town Hall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Lingro burn",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Listed buildings in Kirkwall",
-      "level": 5,
-      "files": 5
-    },
-    {
-      "name": "8 Clay Loan, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Highland Park distillery",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Highland Park bottles",
-      "level": 7,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Baptist Church",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Town Hall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "St Magnus Cathedral, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "The Orkney Museum",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Buckquoy spindle-whorl",
-      "level": 7,
-      "files": 1
-    },
-    {
-      "name": "Scar whalebone plaque",
-      "level": 7,
-      "files": 4
-    },
-    {
-      "name": "Orkney Library and Archive",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Orkney Wireless Museum",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Plaques in Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Scapa distillery",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Ships registered in Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Streets in Kirkwall",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Albert Street, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Bridge Street, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Broad Street, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Palace Road, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Bishop's Palace, Kirkwall",
-      "level": 7,
-      "files": 0
-    },
-    {
-      "name": "Earl's Palace, Kirkwall",
-      "level": 7,
-      "files": 0
-    },
-    {
-      "name": "St Magnus Cathedral, Kirkwall",
-      "level": 7,
-      "files": 0
-    },
-    {
-      "name": "Union Street, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Victoria Street, Kirkwall",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "The Orkney Museum",
-      "level": 5,
       "files": 0
     },
     {
@@ -1797,42 +1682,7 @@
     {
       "name": "Orphir",
       "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Hall of Clestrain",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Orkneyinga saga",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Magnus Erlendsson",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "The Orkneyinga Saga (1873)",
-      "level": 6,
-      "files": 0
-    },
-    {
-      "name": "Orphir Church",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Orphir and Stenness Hills",
-      "level": 5,
-      "files": 0
-    },
-    {
-      "name": "Skaill, Orphir",
-      "level": 5,
-      "files": 0
+      "files": 249
     },
     {
       "name": "Quholm, Stromness",
@@ -1842,6 +1692,16 @@
     {
       "name": "Quoyloo",
       "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Former Sandwick Church of Scotland, Quoyloo, Sandwick",
+      "level": 5,
+      "files": 0
+    },
+    {
+      "name": "Orkney Brewery",
+      "level": 5,
       "files": 0
     },
     {
@@ -2237,7 +2097,7 @@
     {
       "name": "Geology of the Orkney Islands",
       "level": 1,
-      "files": 29
+      "files": 27
     },
     {
       "name": "Coastal erosion in the Orkney Islands",
@@ -2272,7 +2132,7 @@
     {
       "name": "Old Red Sandstone in Scotland",
       "level": 2,
-      "files": 29
+      "files": 27
     },
     {
       "name": "Auchmithie Cliffs",
@@ -2292,7 +2152,7 @@
     {
       "name": "Bressay",
       "level": 3,
-      "files": 2
+      "files": 0
     },
     {
       "name": "Aith Voe, Bressay",
@@ -2307,7 +2167,7 @@
     {
       "name": "Beosetter",
       "level": 4,
-      "files": 2
+      "files": 0
     },
     {
       "name": "Bressay Kirk",
@@ -2322,6 +2182,11 @@
     {
       "name": "Bressay Sound",
       "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Holm of Cruester",
+      "level": 5,
       "files": 0
     },
     {
@@ -2500,6 +2365,11 @@
       "files": 0
     },
     {
+      "name": "Noup Head Lighthouse",
+      "level": 4,
+      "files": 0
+    },
+    {
       "name": "Old Man of Hoy",
       "level": 3,
       "files": 0
@@ -2570,13 +2440,18 @@
       "files": 0
     },
     {
-      "name": "Papa Stronsay",
-      "level": 3,
+      "name": "Caithness Flagstone Group",
+      "level": 4,
       "files": 0
     },
     {
-      "name": "Sons of the Most Holy Redeemer",
+      "name": "Stromness Flagstone Formation",
       "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Papa Stronsay",
+      "level": 3,
       "files": 0
     },
     {
@@ -2697,7 +2572,7 @@
     {
       "name": "History of the Orkney Islands",
       "level": 1,
-      "files": 10
+      "files": 0
     },
     {
       "name": "Earls of the Orkney Islands",
@@ -2707,7 +2582,7 @@
     {
       "name": "Orkney Islands by century",
       "level": 2,
-      "files": 3
+      "files": 0
     },
     {
       "name": "Orkney Islands in the 20th century",
@@ -2717,7 +2592,7 @@
     {
       "name": "Orkney Islands in the 21st century",
       "level": 3,
-      "files": 3
+      "files": 0
     },
     {
       "name": "Orkney Islands in the 2000s",
@@ -2777,7 +2652,7 @@
     {
       "name": "Orkney Islands in the 2020s",
       "level": 4,
-      "files": 3
+      "files": 0
     },
     {
       "name": "2021 in the Orkney Islands",
@@ -2812,7 +2687,7 @@
     {
       "name": "July 2025 in the Orkney Islands",
       "level": 6,
-      "files": 3
+      "files": 0
     },
     {
       "name": "Orkney Islands by decade",
@@ -2820,9 +2695,49 @@
       "files": 0
     },
     {
+      "name": "Orkney Islands in the 1940s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 1970s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "1974 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "1975 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 1980s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 2000s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 2010s",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Orkney Islands in the 2020s",
+      "level": 3,
+      "files": 0
+    },
+    {
       "name": "Orkney Islands by month",
       "level": 2,
-      "files": 3
+      "files": 0
     },
     {
       "name": "April in the Orkney Islands",
@@ -2872,7 +2787,7 @@
     {
       "name": "July in the Orkney Islands",
       "level": 3,
-      "files": 3
+      "files": 0
     },
     {
       "name": "July 2007 in the Orkney Islands",
@@ -2907,7 +2822,7 @@
     {
       "name": "July 2025 in the Orkney Islands",
       "level": 4,
-      "files": 3
+      "files": 0
     },
     {
       "name": "June in the Orkney Islands",
@@ -2977,7 +2892,7 @@
     {
       "name": "Orkney Islands by year",
       "level": 2,
-      "files": 4
+      "files": 0
     },
     {
       "name": "1940 in the Orkney Islands",
@@ -2987,7 +2902,7 @@
     {
       "name": "1942 in the Orkney Islands",
       "level": 3,
-      "files": 3
+      "files": 0
     },
     {
       "name": "1943 in the Orkney Islands",
@@ -3027,7 +2942,7 @@
     {
       "name": "2004 in the Orkney Islands",
       "level": 3,
-      "files": 1
+      "files": 0
     },
     {
       "name": "August 2004 in the Orkney Islands",
@@ -3042,11 +2957,16 @@
     {
       "name": "October 2004 in the Orkney Islands",
       "level": 4,
-      "files": 1
+      "files": 0
     },
     {
       "name": "2006 in the Orkney Islands",
       "level": 3,
+      "files": 0
+    },
+    {
+      "name": "May 2006 in the Orkney Islands",
+      "level": 4,
       "files": 0
     },
     {
@@ -3055,18 +2975,23 @@
       "files": 0
     },
     {
-      "name": "August 2007 in the Orkney Islands",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "July 2007 in the Orkney Islands",
-      "level": 4,
-      "files": 0
-    },
-    {
       "name": "2008 in the Orkney Islands",
       "level": 3,
+      "files": 0
+    },
+    {
+      "name": "August 2008 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "December 2008 in the Orkney Islands",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "June 2008 in the Orkney Islands",
+      "level": 4,
       "files": 0
     },
     {
@@ -3150,6 +3075,16 @@
       "files": 0
     },
     {
+      "name": "Magnus Erlendsson",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "The Orkneyinga Saga (1873)",
+      "level": 3,
+      "files": 0
+    },
+    {
       "name": "Runestones in the Orkney Islands",
       "level": 2,
       "files": 0
@@ -3157,6 +3092,96 @@
     {
       "name": "Nature of the Orkney Islands",
       "level": 1,
+      "files": 0
+    },
+    {
+      "name": "Agriculture in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Animals of the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Countryside in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Flora of the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Trees in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Forests in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Hobbister RSPB Reserve",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Night in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Peat in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Rainbows in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Seasons in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Summer in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Winter in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Sites of Special Scientific Interest in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Snow in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Sunsets of the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "The Loons and Loch of Banks RSPB reserve",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Vat of Kirbister",
+      "level": 2,
       "files": 0
     },
     {
@@ -3235,343 +3260,18 @@
       "files": 0
     },
     {
+      "name": "Cycling in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Golf courses in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
       "name": "Tourism in the Orkney Islands",
       "level": 1,
-      "files": 1434
-    },
-    {
-      "name": "Bothies in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Campsites in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Hotels in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Visitor attractions in the Orkney Islands",
-      "level": 2,
-      "files": 1434
-    },
-    {
-      "name": "Archaeological sites in the Orkney Islands",
-      "level": 3,
-      "files": 14
-    },
-    {
-      "name": "Churches in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Historic Scotland properties in the Orkney Islands",
-      "level": 3,
-      "files": 1338
-    },
-    {
-      "name": "Bishop's Palace, Kirkwall",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Blackhammer Chambered Cairn",
-      "level": 4,
-      "files": 20
-    },
-    {
-      "name": "Broch of Gurness",
-      "level": 4,
-      "files": 82
-    },
-    {
-      "name": "Brough of Birsay",
-      "level": 4,
-      "files": 104
-    },
-    {
-      "name": "Cubbie Roos Castle",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Cuween Hill Chambered Cairn",
-      "level": 4,
-      "files": 15
-    },
-    {
-      "name": "Dounby Click Mill",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Dwarfie Stane",
-      "level": 4,
-      "files": 27
-    },
-    {
-      "name": "Earl's Bu",
-      "level": 4,
-      "files": 3
-    },
-    {
-      "name": "Earl's Palace, Birsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Earl's Palace, Kirkwall",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Eynhallow Church",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Grain Earth House",
-      "level": 4,
-      "files": 14
-    },
-    {
-      "name": "Hackness Martello Tower And Battery",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Knap of Howar",
-      "level": 4,
-      "files": 45
-    },
-    {
-      "name": "Knowe of Yarso Chambered Cairn",
-      "level": 4,
-      "files": 29
-    },
-    {
-      "name": "Links of Noltland",
-      "level": 4,
-      "files": 6
-    },
-    {
-      "name": "Maeshowe",
-      "level": 4,
-      "files": 140
-    },
-    {
-      "name": "Midhowe Broch",
-      "level": 4,
-      "files": 51
-    },
-    {
-      "name": "Midhowe Chambered Cairn",
-      "level": 4,
-      "files": 30
-    },
-    {
-      "name": "Ness of Brodgar",
-      "level": 4,
-      "files": 60
-    },
-    {
-      "name": "Noltland Castle",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Orphir Church",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Pierowall Church",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Quoygrew settlement",
-      "level": 4,
-      "files": 6
-    },
-    {
-      "name": "Quoyness Chambered Cairn",
-      "level": 4,
-      "files": 5
-    },
-    {
-      "name": "Rennibister souterrain",
-      "level": 4,
-      "files": 9
-    },
-    {
-      "name": "Ring of Brodgar",
-      "level": 4,
-      "files": 326
-    },
-    {
-      "name": "Skara Brae",
-      "level": 4,
-      "files": 243
-    },
-    {
-      "name": "St Magnus Church, Egilsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "St Mary's chapel, Wyre",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Standing Stones of Stenness",
-      "level": 4,
-      "files": 123
-    },
-    {
-      "name": "Taversöe Tuick Chambered Cairn",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Tormiston Mill",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Unstan Chambered Cairn",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Westside Church, Tuquoy",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Wideford Hill Chambered Cairn",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Italian Chapel",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Lighthouses in the Orkney Islands",
-      "level": 3,
-      "files": 82
-    },
-    {
-      "name": "Auskerry Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Brough of Birsay Lighthouse",
-      "level": 4,
-      "files": 48
-    },
-    {
-      "name": "Calf of Eday light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Cantick Head Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Cava Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Copinsay Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Helliar Holm",
-      "level": 4,
-      "files": 34
-    },
-    {
-      "name": "Hoxa Head Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Hoy Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Hoy Sound Low Light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall Old West Pier Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "North Ronaldsay Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Noup Head Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Old Lighthouse, North Ronaldsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Pentland Skerries High Light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Pentland Skerries Low Light",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Start Point (Sanday) Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Sule Skerry",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Tor Ness Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Museums in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Picnic places in the Orkney Islands",
-      "level": 3,
       "files": 0
     },
     {
@@ -3582,196 +3282,6 @@
     {
       "name": "Transport in the Orkney Islands",
       "level": 1,
-      "files": 0
-    },
-    {
-      "name": "Airfields in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Bridges in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Bus transport in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Bus operators in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Bus stops in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Buses in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Cycling in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "National Cycle Network route 1 in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Footpaths in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Orkney Ferries",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Ports and harbours in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Roads in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "A960 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "A961 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "A964 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "A965 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "A966 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "A967 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "A986 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9042 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9047 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9049 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9052 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9055 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9056 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9057 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9063 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9064 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9066 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9068 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9069 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "B9070 road (Scotland)",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Dirt roads in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Roads in Hoy, Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Roads in Orkney Mainland",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Roads in Westray, Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Street furniture in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Ships in the Orkney Islands",
-      "level": 2,
       "files": 0
     }
   ]
