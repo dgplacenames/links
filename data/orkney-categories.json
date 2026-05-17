@@ -1,23 +1,23 @@
 {
-  "updated": "2026-05-10T05:41:43.448822Z",
+  "updated": "2026-05-17T05:53:15.531845Z",
   "root_category": "Orkney Islands",
-  "total_categories": 61,
+  "total_categories": 63,
   "max_depth": 10,
   "categories": [
     {
       "name": "Aerial photographs of the Orkney Islands",
       "level": 1,
-      "files": 59
+      "files": 60
     },
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 27
+      "files": 28
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 21
+      "files": 22
     },
     {
       "name": "Banks Chambered Tomb",
@@ -280,6 +280,11 @@
       "files": 0
     },
     {
+      "name": "Quality images of the Orkney Islands",
+      "level": 1,
+      "files": 0
+    },
+    {
       "name": "Scheduled monuments in the Orkney Islands",
       "level": 1,
       "files": 0
@@ -306,6 +311,11 @@
     },
     {
       "name": "Transport in the Orkney Islands",
+      "level": 1,
+      "files": 0
+    },
+    {
+      "name": "Unidentified locations in the Orkney Islands",
       "level": 1,
       "files": 0
     }
