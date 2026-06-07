@@ -1,7 +1,7 @@
 {
-  "updated": "2026-05-31T06:25:15.410900Z",
+  "updated": "2026-06-07T06:36:05.727278Z",
   "root_category": "Orkney Islands",
-  "total_categories": 63,
+  "total_categories": 64,
   "max_depth": 10,
   "categories": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 28
+      "files": 84
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 22
+      "files": 48
     },
     {
       "name": "Banks Chambered Tomb",
@@ -162,22 +162,27 @@
     {
       "name": "Wideford Hill Chambered Cairn",
       "level": 3,
-      "files": 0
+      "files": 26
     },
     {
       "name": "Cairns in the Orkney Islands",
       "level": 2,
-      "files": 0
+      "files": 23
+    },
+    {
+      "name": "Vinquoy Chambered Cairn",
+      "level": 3,
+      "files": 4
     },
     {
       "name": "Glow in the ArchaeoDark",
       "level": 2,
-      "files": 0
+      "files": 5
     },
     {
       "name": "Westray Wife",
       "level": 2,
-      "files": 0
+      "files": 2
     },
     {
       "name": "Architecture of the Orkney Islands",
