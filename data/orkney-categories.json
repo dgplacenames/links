@@ -1,23 +1,23 @@
 {
-  "updated": "2026-06-21T06:56:45.659877Z",
+  "updated": "2026-06-28T06:25:20.242861Z",
   "root_category": "Orkney Islands",
-  "total_categories": 63,
+  "total_categories": 69,
   "max_depth": 10,
   "categories": [
     {
       "name": "Aerial photographs of the Orkney Islands",
       "level": 1,
-      "files": 64
+      "files": 68
     },
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 28
+      "files": 407
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 22
+      "files": 396
     },
     {
       "name": "Banks Chambered Tomb",
@@ -57,16 +57,46 @@
     {
       "name": "Earl's Bu",
       "level": 3,
-      "files": 0
+      "files": 3
     },
     {
       "name": "Grain Earth House",
       "level": 3,
-      "files": 0
+      "files": 17
     },
     {
       "name": "Heart of Neolithic Orkney",
       "level": 3,
+      "files": 180
+    },
+    {
+      "name": "Glow in the ArchaeoDark",
+      "level": 4,
+      "files": 5
+    },
+    {
+      "name": "Maeshowe",
+      "level": 4,
+      "files": 174
+    },
+    {
+      "name": "Ness of Brodgar",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Ring of Brodgar",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Skara Brae",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Standing Stones of Stenness",
+      "level": 4,
       "files": 0
     },
     {
@@ -92,7 +122,7 @@
     {
       "name": "Maeshowe",
       "level": 3,
-      "files": 0
+      "files": 174
     },
     {
       "name": "Midhowe Chambered Cairn",
@@ -172,7 +202,7 @@
     {
       "name": "Glow in the ArchaeoDark",
       "level": 2,
-      "files": 0
+      "files": 5
     },
     {
       "name": "Westray Wife",
