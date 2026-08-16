@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-09T03:47:37.058689Z",
+  "updated": "2026-08-16T03:05:20.823981Z",
   "root_category": "Orkney Islands",
-  "total_categories": 63,
+  "total_categories": 72,
   "max_depth": 10,
   "categories": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 28
+      "files": 244
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 22
+      "files": 238
     },
     {
       "name": "Banks Chambered Tomb",
@@ -37,6 +37,51 @@
     {
       "name": "Brochs of the Orkney Islands",
       "level": 3,
+      "files": 216
+    },
+    {
+      "name": "Broch of Ayre",
+      "level": 4,
+      "files": 1
+    },
+    {
+      "name": "Broch of Borwick",
+      "level": 4,
+      "files": 16
+    },
+    {
+      "name": "Broch of Burrian, North Ronaldsay",
+      "level": 4,
+      "files": 4
+    },
+    {
+      "name": "Broch of Gurness",
+      "level": 4,
+      "files": 175
+    },
+    {
+      "name": "Burroughston Broch",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Knowe of Burrian",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Knowe of Hunclett",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Midhowe Broch",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Mine Howe",
+      "level": 4,
       "files": 0
     },
     {
