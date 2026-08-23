@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-16T03:05:20.823981Z",
+  "updated": "2026-08-23T03:08:25.272834Z",
   "root_category": "Orkney Islands",
   "total_categories": 72,
   "max_depth": 10,
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 244
+      "files": 130
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 238
+      "files": 124
     },
     {
       "name": "Banks Chambered Tomb",
@@ -27,17 +27,17 @@
     {
       "name": "Barnhouse",
       "level": 3,
-      "files": 0
+      "files": 46
     },
     {
       "name": "Blackhammer Chambered Cairn",
       "level": 3,
-      "files": 0
+      "files": 35
     },
     {
       "name": "Brochs of the Orkney Islands",
       "level": 3,
-      "files": 216
+      "files": 21
     },
     {
       "name": "Broch of Ayre",
@@ -47,17 +47,17 @@
     {
       "name": "Broch of Borwick",
       "level": 4,
-      "files": 16
+      "files": 0
     },
     {
       "name": "Broch of Burrian, North Ronaldsay",
       "level": 4,
-      "files": 4
+      "files": 0
     },
     {
       "name": "Broch of Gurness",
       "level": 4,
-      "files": 175
+      "files": 0
     },
     {
       "name": "Burroughston Broch",
