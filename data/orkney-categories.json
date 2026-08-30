@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-23T03:08:25.272834Z",
+  "updated": "2026-08-30T08:09:09.287392Z",
   "root_category": "Orkney Islands",
-  "total_categories": 72,
+  "total_categories": 76,
   "max_depth": 10,
   "categories": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 130
+      "files": 35
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 124
+      "files": 22
     },
     {
       "name": "Banks Chambered Tomb",
@@ -27,61 +27,16 @@
     {
       "name": "Barnhouse",
       "level": 3,
-      "files": 46
+      "files": 0
     },
     {
       "name": "Blackhammer Chambered Cairn",
       "level": 3,
-      "files": 35
+      "files": 0
     },
     {
       "name": "Brochs of the Orkney Islands",
       "level": 3,
-      "files": 21
-    },
-    {
-      "name": "Broch of Ayre",
-      "level": 4,
-      "files": 1
-    },
-    {
-      "name": "Broch of Borwick",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Broch of Burrian, North Ronaldsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Broch of Gurness",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Burroughston Broch",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Knowe of Burrian",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Knowe of Hunclett",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Midhowe Broch",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Mine Howe",
-      "level": 4,
       "files": 0
     },
     {
@@ -217,16 +172,81 @@
     {
       "name": "Glow in the ArchaeoDark",
       "level": 2,
-      "files": 0
+      "files": 5
     },
     {
       "name": "Westray Wife",
       "level": 2,
-      "files": 0
+      "files": 2
     },
     {
       "name": "Architecture of the Orkney Islands",
       "level": 1,
+      "files": 104
+    },
+    {
+      "name": "Stained-glass windows in the Orkney Islands",
+      "level": 2,
+      "files": 104
+    },
+    {
+      "name": "Kirkwall Cathedral (stained glass)",
+      "level": 3,
+      "files": 101
+    },
+    {
+      "name": "Structures in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Bridges in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Buildings in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Cairns in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Causeways in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Fences in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Gates in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Monuments and memorials in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Street furniture in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Trig points in the Orkney Islands",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Walls in the Orkney Islands",
+      "level": 3,
       "files": 0
     },
     {
