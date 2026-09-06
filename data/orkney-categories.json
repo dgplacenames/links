@@ -1,7 +1,7 @@
 {
-  "updated": "2026-08-30T08:09:09.287392Z",
+  "updated": "2026-09-06T07:01:14.360251Z",
   "root_category": "Orkney Islands",
-  "total_categories": 76,
+  "total_categories": 66,
   "max_depth": 10,
   "categories": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 35
+      "files": 208
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 22
+      "files": 202
     },
     {
       "name": "Banks Chambered Tomb",
@@ -42,12 +42,27 @@
     {
       "name": "Brough of Birsay",
       "level": 3,
-      "files": 0
+      "files": 165
+    },
+    {
+      "name": "Birsay Stone",
+      "level": 4,
+      "files": 4
+    },
+    {
+      "name": "Brough of Birsay Lighthouse",
+      "level": 4,
+      "files": 49
+    },
+    {
+      "name": "Buckquoy spindle-whorl",
+      "level": 4,
+      "files": 1
     },
     {
       "name": "Cuween Hill Chambered Cairn",
       "level": 3,
-      "files": 0
+      "files": 15
     },
     {
       "name": "Dwarfie Stane",
@@ -172,81 +187,16 @@
     {
       "name": "Glow in the ArchaeoDark",
       "level": 2,
-      "files": 5
+      "files": 0
     },
     {
       "name": "Westray Wife",
       "level": 2,
-      "files": 2
+      "files": 0
     },
     {
       "name": "Architecture of the Orkney Islands",
       "level": 1,
-      "files": 104
-    },
-    {
-      "name": "Stained-glass windows in the Orkney Islands",
-      "level": 2,
-      "files": 104
-    },
-    {
-      "name": "Kirkwall Cathedral (stained glass)",
-      "level": 3,
-      "files": 101
-    },
-    {
-      "name": "Structures in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Bridges in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Buildings in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Cairns in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Causeways in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Fences in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Gates in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Monuments and memorials in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Street furniture in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Trig points in the Orkney Islands",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Walls in the Orkney Islands",
-      "level": 3,
       "files": 0
     },
     {
