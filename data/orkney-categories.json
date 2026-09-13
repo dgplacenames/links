@@ -1,7 +1,7 @@
 {
-  "updated": "2026-09-06T07:01:14.360251Z",
+  "updated": "2026-09-13T07:21:31.289592Z",
   "root_category": "Orkney Islands",
-  "total_categories": 66,
+  "total_categories": 63,
   "max_depth": 10,
   "categories": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 208
+      "files": 28
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 202
+      "files": 22
     },
     {
       "name": "Banks Chambered Tomb",
@@ -42,27 +42,12 @@
     {
       "name": "Brough of Birsay",
       "level": 3,
-      "files": 165
-    },
-    {
-      "name": "Birsay Stone",
-      "level": 4,
-      "files": 4
-    },
-    {
-      "name": "Brough of Birsay Lighthouse",
-      "level": 4,
-      "files": 49
-    },
-    {
-      "name": "Buckquoy spindle-whorl",
-      "level": 4,
-      "files": 1
+      "files": 0
     },
     {
       "name": "Cuween Hill Chambered Cairn",
       "level": 3,
-      "files": 15
+      "files": 0
     },
     {
       "name": "Dwarfie Stane",
