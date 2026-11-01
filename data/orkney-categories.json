@@ -1,13 +1,13 @@
 {
-  "updated": "2026-10-25T07:28:17.387641Z",
+  "updated": "2026-11-01T08:58:11.561239Z",
   "root_category": "Orkney Islands",
-  "total_categories": 63,
+  "total_categories": 90,
   "max_depth": 10,
   "categories": [
     {
       "name": "Aerial photographs of the Orkney Islands",
       "level": 1,
-      "files": 72
+      "files": 74
     },
     {
       "name": "Archaeology of the Orkney Islands",
@@ -192,16 +192,151 @@
     {
       "name": "Black and white photographs of the Orkney Islands",
       "level": 1,
-      "files": 0
+      "files": 22
     },
     {
       "name": "Caves in the Orkney Islands",
       "level": 1,
-      "files": 0
+      "files": 61
+    },
+    {
+      "name": "The Gloup",
+      "level": 2,
+      "files": 48
     },
     {
       "name": "Civil parishes in the Orkney Islands",
       "level": 1,
+      "files": 883
+    },
+    {
+      "name": "Birsay and Harray",
+      "level": 2,
+      "files": 883
+    },
+    {
+      "name": "Birsay",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Barony Mills, Birsay",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Brough of Birsay",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Brough of Birsay Lighthouse",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Earl's Palace, Birsay",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Loch of Boardhouse",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "St Magnus Church, Birsay",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Harray",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Holodyke",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Kirbuster, Birsay and Harray",
+      "level": 3,
+      "files": 0
+    },
+    {
+      "name": "Eday",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Evie and Rendall",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Firth, Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Holm, Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Hoy and Graemsay",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Kirkwall and St Ola",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Lady, Orkney Islands (civil parish)",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Locator maps of civil parishes in the Orkney Islands",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Papa Westray",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Rousay and Egilsay",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Shapinsay",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "St Andrews and Deerness",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Stenness (civil parish)",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Stromness (civil parish)",
+      "level": 2,
+      "files": 0
+    },
+    {
+      "name": "Walls and Flotta",
+      "level": 2,
       "files": 0
     },
     {
