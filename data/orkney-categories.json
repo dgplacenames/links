@@ -1,7 +1,7 @@
 {
-  "updated": "2026-11-01T08:58:11.561239Z",
+  "updated": "2026-11-08T08:48:16.290710Z",
   "root_category": "Orkney Islands",
-  "total_categories": 90,
+  "total_categories": 77,
   "max_depth": 10,
   "categories": [
     {
@@ -12,12 +12,12 @@
     {
       "name": "Archaeology of the Orkney Islands",
       "level": 1,
-      "files": 28
+      "files": 440
     },
     {
       "name": "Archaeological sites in the Orkney Islands",
       "level": 2,
-      "files": 22
+      "files": 434
     },
     {
       "name": "Banks Chambered Tomb",
@@ -142,11 +142,81 @@
     {
       "name": "Skara Brae",
       "level": 3,
-      "files": 0
+      "files": 387
     },
     {
       "name": "Standing stones in the Orkney Islands",
       "level": 3,
+      "files": 25
+    },
+    {
+      "name": "Barnhouse Stone",
+      "level": 4,
+      "files": 10
+    },
+    {
+      "name": "Clouduhall standing stone",
+      "level": 4,
+      "files": 2
+    },
+    {
+      "name": "Comet Stone",
+      "level": 4,
+      "files": 7
+    },
+    {
+      "name": "Deepdale Stone",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Langstane",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Mor Stein",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Odin Stone",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Sorquoy standing stone",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Stan Stane",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Stanerandy standing stones",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Stembister standing stone",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Stone of Setter",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Wheebin standing stone",
+      "level": 4,
+      "files": 0
+    },
+    {
+      "name": "Yetnasteen",
+      "level": 4,
       "files": 0
     },
     {
@@ -192,151 +262,16 @@
     {
       "name": "Black and white photographs of the Orkney Islands",
       "level": 1,
-      "files": 22
+      "files": 0
     },
     {
       "name": "Caves in the Orkney Islands",
       "level": 1,
-      "files": 61
-    },
-    {
-      "name": "The Gloup",
-      "level": 2,
-      "files": 48
+      "files": 0
     },
     {
       "name": "Civil parishes in the Orkney Islands",
       "level": 1,
-      "files": 883
-    },
-    {
-      "name": "Birsay and Harray",
-      "level": 2,
-      "files": 883
-    },
-    {
-      "name": "Birsay",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Barony Mills, Birsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Brough of Birsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Brough of Birsay Lighthouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Earl's Palace, Birsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Loch of Boardhouse",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "St Magnus Church, Birsay",
-      "level": 4,
-      "files": 0
-    },
-    {
-      "name": "Harray",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Holodyke",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Kirbuster, Birsay and Harray",
-      "level": 3,
-      "files": 0
-    },
-    {
-      "name": "Eday",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Evie and Rendall",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Firth, Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Holm, Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Hoy and Graemsay",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Kirkwall and St Ola",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Lady, Orkney Islands (civil parish)",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Locator maps of civil parishes in the Orkney Islands",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Papa Westray",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Rousay and Egilsay",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Shapinsay",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "St Andrews and Deerness",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Stenness (civil parish)",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Stromness (civil parish)",
-      "level": 2,
-      "files": 0
-    },
-    {
-      "name": "Walls and Flotta",
-      "level": 2,
       "files": 0
     },
     {
